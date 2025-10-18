@@ -28,16 +28,22 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "20"
+          registry-url: "https://registry.npmjs.org"
 
       - name: Configure npm to use official registry
         run: |
+          echo "registry=https://registry.npmjs.org/" > .npmrc
           npm config set registry https://registry.npmjs.org/
-          npm config set fetch-retries 5
+          npm config set fetch-retries 10
           npm config set fetch-retry-mintimeout 20000
           npm config set fetch-retry-maxtimeout 120000
+          npm config set fetch-timeout 300000
+
+      - name: Verify npm registry
+        run: npm config get registry
 
       - name: Install dependencies
-        run: npm install --legacy-peer-deps
+        run: npm install --legacy-peer-deps --registry=https://registry.npmjs.org/
 
       - name: Build
         run: npm run build
