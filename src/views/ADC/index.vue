@@ -1,107 +1,112 @@
 <template>
-    <!-- ADC页面 -->
-    <!-- 抗体和药物亲和力 -->
-    <div class="ADCContain">
-        <div class="ADCCard">
-            <div class="ADCTitle">
-                <div class="ADCTitleLarge">
-                    Antibody-Drug Conjugate
-                </div>
-                <div class="ADCStep">
-                    <div class="ADCStepL">
-                        <img class="ADCStepImg" src="../../assets/images/example.png" alt="">
-                        <div class="ADCStepText">加载案例</div>
+    <div class="function-container">
+        <div class="function-card">
+            <header class="header-section">
+                <h1 class="header-title">抗体药物偶联物 (ADC) 亲和力预测</h1>
+                <p class="header-description">
+                    抗体药物偶联物 (ADC)
+                    是一种靶向癌症疗法，它将单克隆抗体的特异性与化疗药物的强效细胞毒性相结合。ADC旨在将剧毒药物直接递送至癌细胞，同时最大限度地减少对健康组织的损害。此功能利用AI模型预测ADC的结合亲和力。
+                </p>
+            </header>
+
+            <main class="main-content">
+                <h2 class="section-title">输入序列和参数</h2>
+                <div class="input-grid" style="grid-template-columns: 1fr 1fr;">
+                    <div class="input-card">
+                        <label class="input-label"><i class="fas fa-link"></i>Linker SMILES</label>
+                        <el-input v-model="adcLinker" type="textarea" :rows="2" placeholder="请输入Linker的SMILES序列"
+                            clearable></el-input>
                     </div>
-                    <div class="ADCStepL2">
-                        <img class="ADCStepImg" src="../../assets/images/arrow.png" alt="">
+                    <div class="input-card">
+                        <label class="input-label"><i class="fas fa-capsules"></i>Payload SMILES</label>
+                        <el-input v-model="adcPlayLoad" type="textarea" :rows="2" placeholder="请输入Payload的SMILES序列"
+                            clearable></el-input>
                     </div>
-                    <div class="ADCStepL">
-                        <img class="ADCStepImg" src="../../assets/images/run.png" alt="">
-                        <div class="ADCStepText">运行</div>
+                    <div class="input-card">
+                        <label class="input-label"><i class="fas fa-dna"></i>抗体重链序列</label>
+                        <el-input v-model="adcHeavy" type="textarea" :rows="4" placeholder="请输入抗体重链序列"
+                            clearable></el-input>
                     </div>
-                    <div class="ADCStepL2">
-                        <img class="ADCStepImg" src="../../assets/images/arrow.png" alt="">
+                    <div class="input-card">
+                        <label class="input-label"><i class="fas fa-dna"></i>抗体轻链序列</label>
+                        <el-input v-model="adcLight" type="textarea" :rows="4" placeholder="请输入抗体轻链序列"
+                            clearable></el-input>
                     </div>
-                    <div class="ADCStepL">
-                        <img class="ADCStepImg" src="../../assets/images/result.png" alt="">
-                        <div class="ADCStepText">结果</div>
+                    <div class="input-card" style="grid-column: 1 / -1;">
+                        <label class="input-label"><i class="fas fa-dna"></i>抗原序列</label>
+                        <el-input v-model="adcAntigen" type="textarea" :rows="5" placeholder="请输入抗原序列"
+                            clearable></el-input>
+                    </div>
+                    <div class="input-card">
+                        <label class="input-label"><i class="fas fa-sort-numeric-up"></i>DAR值 (药物抗体比)</label>
+                        <el-input v-model="adcDar" placeholder="请输入DAR值" clearable></el-input>
                     </div>
                 </div>
 
-                <div class="ADCTitleText">
-                    Antibody-Drug Conjugates (ADCs) are a class of targeted cancer therapies that combine the
-                    specificity of monoclonal antibodies with the potent cytotoxicity of chemotherapeutic drugs. ADCs
-                    are designed to deliver highly toxic drugs directly to cancer cells while minimizing damage to
-                    healthy tissues.
+                <div class="action-buttons">
+                    <el-button type="primary" size="large" @click="adcRun" :loading="loading">
+                        <i class="fas fa-play" style="margin-right: 8px;"></i>
+                        开始预测
+                    </el-button>
+                    <el-button size="large" @click="adcLoadExp">
+                        <i class="fas fa-vial" style="margin-right: 8px;"></i>
+                        加载示例
+                    </el-button>
+                    <el-button size="large" @click="adcReset">
+                        <i class="fas fa-sync-alt" style="margin-right: 8px;"></i>
+                        重置
+                    </el-button>
                 </div>
-                <div class="ADCInput">Input Sequences</div>
-            </div>
-            <div class="ADCMain">
-                <div class="ADCMainIput">
-                    <QICard v-model:model-value="adcLinker" title="linker smile"></QICard>
-                    <QICard v-model:model-value="adcPlayLoad" title="playload smile"></QICard>
-                    <QICard v-model:model-value="adcHeavy" title="Heavy sequence"></QICard>
-                    <QICard v-model:model-value="adcLight" title="Light sequence"></QICard>
-                    <QICard v-model:model-value="adcAntigen" title="Antigen sequence"></QICard>
-                    <QICard v-model:model-value="adcDar" title="dar_str"></QICard>
+                <h2 class="section-title">预测结果</h2>
+                <div class="result-section">
+                    <div v-if="adcResult === '' && !loading" class="result-placeholder">
+                        预测结果将显示在这里
+                    </div>
+                    <div v-if="loading" v-loading="loading" element-loading-text="正在计算中..."
+                        style="width: 100%; height: 100px;"></div>
+                    <div v-if="adcResult !== '' && !loading" class="result-value">
+                        亲和力: {{ adcResult }}
+                    </div>
                 </div>
-                <div class="ADCMainOutput">
-                    <QIBtn @click="adcLoadExp" title="LoadExample"></QIBtn>
-                    <QIBtn @click="adcRun" title="RUN"></QIBtn>
-                    <QIBtn @click="adcReset" title="RESET"></QIBtn>
-                </div>
-                <div class="ADCMainResult">
-                    <div class="ADCResultTitle">Result:</div>
-                    <div class="ADCResult">{{ adcResult }}</div>
-                </div>
-            </div>
+            </main>
         </div>
-
     </div>
-
-
-
-
 </template>
 
 <script setup>
 import { ref } from 'vue';
-import QICard from '../../components/QICard.vue';
-import QIBtn from '../../components/QIBtn.vue';
 import { adcUseStore } from '../../store/adc/index';
-import request from '../../utils/request.js'; // 导入 request.js
+import request from '../../utils/request.js';
+import { ElMessage } from 'element-plus';
+import '@/assets/styles/function.css';
 
 const store = adcUseStore();
+const loading = ref(false);
 const adcResult = ref('');
 const adcLinker = ref('');
 const adcPlayLoad = ref('');
 const adcHeavy = ref('');
 const adcLight = ref('');
 const adcAntigen = ref('');
-const adcDar = ref('')
+const adcDar = ref('');
+
 const adcLoadExp = () => {
-    const adcLinkerExp = 'O=C(O)CCCCCN1C(=O)C=CC1=O'; // 输入1：linker smile
-    const adcPlayLoadExp = 'CC[C@H](C)[C@@H]([C@@H](CC(=O)N1CCC[C@H]1[C@@H]([C@@H](C)C(=O)N[C@@H](CC2=CC=CC=C2)C(=O)O)OC)OC)N(C)C(=O)[C@H](C(C)C)NC(=O)[C@H](C(C)C)NC'; // 输入2：playload smile
-    const adcHeavyExp = 'EVQLVESGGGLVQPGGSLRLSCAASGYTFTNFGMNWVRQAPGKGLEWVAWINTNTGEPRYAEEFKGRFTISRDNAKNSLYLQMNSLRAEDTAVYYCARDWDGAYFFDYWGQGTLVTVSS'; // 输入3：Heavy sequence
-    const adcLightExp = 'DIQMTQSPSSLSASVGDRVTITCKASQSVSNDVAWYQQKPGKAPKLLIYFATNRYTGVPSRFSGSGYGTDFTLTISSLQPEDFATYYCQQDYSSPWTFGQGTKVEIK'; // 输入4：Light sequence
-    const adcAntigenExp = 'MPGGCSRGPAAGDGRLRLARLALVLLGWVSSSSPTSSASSFSSSAPFLASAVSAQPPLPDQCPALCECSEAARTVKCVNRNLTEVPTDLPAYVRNLFLTGNQLAVLPAGAFARRPPLAELAALNLSGSRLDEVRAGAFEHLPSLRQLDLSHNPLADLSPFAFSGSNASVSAPSPLVELILNHIVPPEDERQNRSFEGMVVAALLAGRALQGLRRLELASNHFLYLPRDVLAQLPSLRHLDLSNNSLVSLTYVSFRNLTHLESLHLEDNALKVLHNGTLAELQGLPHIRVFLDNNPWVCDCHMADMVTWLKETEVVQGKDRLTCAYPEKMRNRVLLELNSADLDCDPILPPSLQTSYVFLGIVLALIGAIFLLVLYLNRKGIKKWMHNIRDACRDHMEGYHYRYEINADPRLTNLSSNSDV'; // 输入5：Antigen sequence
-    const adcDarExp = '4'
+    adcLinker.value = 'O=C(O)CCCCCN1C(=O)C=CC1=O';
+    adcPlayLoad.value = 'CC[C@H](C)[C@@H]([C@@H](CC(=O)N1CCC[C@H]1[C@@H]([C@@H](C)C(=O)N[C@@H](CC2=CC=CC=C2)C(=O)O)OC)OC)N(C)C(=O)[C@H](C(C)C)NC(=O)[C@H](C(C)C)NC';
+    adcHeavy.value = 'EVQLVESGGGLVQPGGSLRLSCAASGYTFTNFGMNWVRQAPGKGLEWVAWINTNTGEPRYAEEFKGRFTISRDNAKNSLYLQMNSLRAEDTAVYYCARDWDGAYFFDYWGQGTLVTVSS';
+    adcLight.value = 'DIQMTQSPSSLSASVGDRVTITCKASQSVSNDVAWYQQKPGKAPKLLIYFATNRYTGVPSRFSGSGYGTDFTLTISSLQPEDFATYYCQQDYSSPWTFGQGTKVEIK';
+    adcAntigen.value = 'MPGGCSRGPAAGDGRLRLARLALVLLGWVSSSSPTSSASSFSSSAPFLASAVSAQPPLPDQCPALCECSEAARTVKCVNRNLTEVPTDLPAYVRNLFLTGNQLAVLPAGAFARRPPLAELAALNLSGSRLDEVRAGAFEHLPSLRQLDLSHNPLADLSPFAFSGSNASVSAPSPLVELILNHIVPPEDERQNRSFEGMVVAALLAGRALQGLRRLELASNHFLYLPRDVLAQLPSLRHLDLSNNSLVSLTYVSFRNLTHLESLHLEDNALKVLHNGTLAELQGLPHIRVFLDNNPWVCDCHMADMVTWLKETEVVQGKDRLTCAYPEKMRNRVLLELNSADLDCDPILPPSLQTSYVFLGIVLALIGAIFLLVLYLNRKGIKKWMHNIRDACRDHMEGYHYRYEINADPRLTNLSSNSDV';
+    adcDar.value = '4';
+    ElMessage.success('示例数据已加载');
+};
 
-    adcLinker.value = adcLinkerExp;
-    adcPlayLoad.value = adcPlayLoadExp;
-    adcHeavy.value = adcHeavyExp;
-    adcLight.value = adcLightExp;
-    adcAntigen.value = adcAntigenExp;
-    adcDar.value = adcDarExp
-
-    store.setAdcLinker(adcLinkerExp);
-    store.setAdcPlayLoad(adcPlayLoadExp);
-    store.setAdcHeavy(adcHeavyExp);
-    store.setAdcLight(adcLightExp);
-    store.setAdcAntigen(adcAntigenExp);
-    store.setAdcDar(adcDarExp)
-}
 const adcRun = async () => {
+    if (!adcLinker.value || !adcPlayLoad.value || !adcHeavy.value || !adcLight.value || !adcAntigen.value || !adcDar.value) {
+        ElMessage.warning('请填写所有输入字段');
+        return;
+    }
+    loading.value = true;
+    adcResult.value = '';
     try {
         const response = await request.post('/predict_adc', {
             heavy_seq: adcHeavy.value,
@@ -111,13 +116,15 @@ const adcRun = async () => {
             linker_s: adcLinker.value,
             dar_str: adcDar.value,
         });
-        console.log(response)
-        adcResult.value = response.prediction; // 假设返回的数据格式中有 result 字段
+        adcResult.value = response.prediction;
+        ElMessage.success('预测成功！');
     } catch (error) {
         console.error('请求失败:', error);
+        ElMessage.error('预测失败，请检查输入或稍后重试');
+    } finally {
+        loading.value = false;
     }
-    console.log('adcRun1')
-}
+};
 
 const adcReset = () => {
     adcLinker.value = '';
@@ -126,144 +133,6 @@ const adcReset = () => {
     adcLight.value = '';
     adcAntigen.value = '';
     adcDar.value = '';
-    store.setAdcLinker('');
-    store.setAdcPlayLoad('');
-    store.setAdcHeavy('');
-    store.setAdcLight('');
-    store.setAdcDar('')
-}
-
-
-
-
+    adcResult.value = '';
+};
 </script>
-
-
-<style lang="scss" scoped>
-.ADCContain {
-    width: 100%;
-    min-height: 150vh;
-    display: flex;
-    justify-content: center;
-
-    .ADCCard {
-        width: 80%;
-        min-height: 150vh;
-        background-color: #ffffff;
-        margin-top: 100px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-
-        .ADCTitle {
-            margin-top: -50px;
-            width: 100%;
-            min-height: 20vh;
-            border-bottom: 1px solid #ccc;
-
-            .ADCStep {
-                width: 100%;
-                height: 150px;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                flex-direction: row;
-
-                .ADCStepL {
-                    width: 100px;
-                    height: 100%;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    flex-direction: column;
-                }
-
-                .ADCStepL2 {
-                    width: 100px;
-                    height: 100%;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    background-color: #fff;
-                }
-
-                .ADCStepImg {
-                    width: 60px;
-                    height: 60px;
-                }
-
-                .ADCStepText {
-                    font-size: large;
-                }
-            }
-
-            .ADCTitleLarge {
-                padding: 10px;
-                font-size: 40px;
-                margin-top: 7vh;
-                margin-left: 120px;
-            }
-
-            .ADCTitleText {
-                width: 80%;
-                padding: 10px;
-                margin-left: 120px;
-                background-color: #f5f7f9;
-            }
-
-            .ADCInput {
-                width: 100%;
-                height: 50px;
-                font-size: 20px;
-                font-weight: 800;
-                margin-left: 120px;
-                margin-top: 10px;
-            }
-        }
-
-        .ADCMain {
-            width: 100%;
-            height: 100%;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-
-            .ADCMainIput {
-                width: 100%;
-                height: auto;
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-            }
-
-            .ADCMainOutput {
-                width: 100%;
-                height: auto;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-
-            }
-
-            .ADCMainResult {
-                width: 100%;
-                height: auto;
-                display: flex;
-                align-items: center;
-                justify-content: start;
-
-                .ADCResultTitle {
-                    font-weight: 800;
-                    font-size: 30px;
-                    margin-left: 160px;
-                }
-
-                .ADCResult {
-                    font-weight: 800;
-                    font-size: 30px;
-                    margin-left: 20px;
-
-                }
-            }
-        }
-    }
-}
-</style>

@@ -1,259 +1,120 @@
 <template>
-    <!-- 抗原抗体亲和力检测页面 -->
-    <div class="antigenContain">
-        <div class="antigenCard">
-            <div class="antigenTitle">
-                <div class="antigenTitleLarge">
-                    Antigen-Antibody Affinity Detection
-                </div>
-                <div class="antigenStep">
-                    <div class="antigenStepL">
-                        <img class="antigenStepImg" src="../../assets/images/example.png" alt="">
-                        <div class="antigenStepText">加载案例</div>
+    <div class="function-container">
+        <div class="function-card">
+            <header class="header-section">
+                <h1 class="header-title">抗原-抗体亲和力预测</h1>
+                <p class="header-description">
+                    抗原-抗体亲和力检测是免疫学和生物技术中的一项关键技术，用于测量抗原与其相应抗体之间相互作用的强度。此功能对于理解免疫应答、开发诊断分析方法和工程化治疗性抗体至关重要。高亲和力相互作用表明结合牢固且特异，这对于抗体靶向病原体或病变细胞的功效至关重要。
+                </p>
+            </header>
+
+            <main class="main-content">
+                <h2 class="section-title">输入序列</h2>
+                <div class="input-grid" style="grid-template-columns: 1fr 1fr;">
+                    <div class="input-card">
+                        <label class="input-label"><i class="fas fa-dna"></i>抗体重链序列</label>
+                        <el-input v-model="heavy" type="textarea" :rows="5" placeholder="请输入抗体重链序列"
+                            clearable></el-input>
                     </div>
-                    <div class="antigenStepL2">
-                        <img class="antigenStepImg" src="../../assets/images/arrow.png" alt="">
+                    <div class="input-card">
+                        <label class="input-label"><i class="fas fa-dna"></i>抗体轻链序列</label>
+                        <el-input v-model="light" type="textarea" :rows="5" placeholder="请输入抗体轻链序列"
+                            clearable></el-input>
                     </div>
-                    <div class="antigenStepL">
-                        <img class="antigenStepImg" src="../../assets/images/run.png" alt="">
-                        <div class="antigenStepText">运行</div>
-                    </div>
-                    <div class="antigenStepL2">
-                        <img class="antigenStepImg" src="../../assets/images/arrow.png" alt="">
-                    </div>
-                    <div class="antigenStepL">
-                        <img class="antigenStepImg" src="../../assets/images/result.png" alt="">
-                        <div class="antigenStepText">结果</div>
+                    <div class="input-card" style="grid-column: 1 / -1;">
+                        <label class="input-label"><i class="fas fa-dna"></i>抗原序列</label>
+                        <el-input v-model="anti" type="textarea" :rows="6" placeholder="请输入抗原序列" clearable></el-input>
                     </div>
                 </div>
-                <div class="antigenTitleText">
-                    Antigen-antibody affinity detection is a critical technique in immunology and biotechnology, used to
-                    measure the strength of the interaction between an antigen and its corresponding antibody. This
-                    process is essential for understanding immune responses, developing diagnostic assays, and
-                    engineering therapeutic antibodies. High-affinity interactions indicate a strong and specific
-                    binding, which is crucial for the efficacy of antibodies in targeting pathogens or diseased cells.
-                    Various methods, such as surface plasmon resonance (SPR), enzyme-linked immunosorbent assay (ELISA),
-                    and fluorescence-based assays, are employed to quantify this affinity, providing valuable insights
-                    into the molecular dynamics of immune recognition.
+
+                <div class="action-buttons">
+                    <el-button type="primary" size="large" @click="antiRun" :loading="loading">
+                        <i class="fas fa-play" style="margin-right: 8px;"></i>
+                        开始预测
+                    </el-button>
+                    <el-button size="large" @click="antiLoadExp">
+                        <i class="fas fa-vial" style="margin-right: 8px;"></i>
+                        加载示例
+                    </el-button>
+                    <el-button size="large" @click="antiReset">
+                        <i class="fas fa-sync-alt" style="margin-right: 8px;"></i>
+                        重置
+                    </el-button>
                 </div>
-                <div class="antigenInput">Input Sequences</div>
-            </div>
-            <div class="antigenMain">
-                <div class="antigenMainIput">
-                    <QICard v-model:model-value="Heavy" title="Heavy Chain Sequence"></QICard>
-                    <QICard v-model:model-value="Light" title="Light Chain Sequence"></QICard>
-                    <QICard v-model:model-value="Anti" title="Antigen Sequence"></QICard>
+                <h2 class="section-title">预测结果</h2>
+                <div class="result-section">
+                    <div v-if="antiResult === '' && !loading" class="result-placeholder">
+                        预测结果将显示在这里
+                    </div>
+                    <div v-if="loading" v-loading="loading" element-loading-text="正在计算中..."
+                        style="width: 100%; height: 100px;"></div>
+                    <div v-if="antiResult !== '' && !loading" class="result-value">
+                        亲和力: {{ antiResult }}
+                    </div>
                 </div>
-                <div class="antigenMainOutput">
-                    <QIBtn @click="antiLoadExp" title="LoadExample"></QIBtn>
-                    <QIBtn title="RUN" @click="antiRun"></QIBtn>
-                    <QIBtn title="RESET" @click="antiReset"></QIBtn>
-                </div>
-                <div class="antigenMainResult">
-                    <div class="antigenResultTitle">Result:</div>
-                    <div class="antigenResult">{{ antiResult }}</div>
-                </div>
-            </div>
+            </main>
         </div>
     </div>
-
-
-
-
 </template>
 
 <script setup>
-import QICard from '../../components/QICard.vue';
-import QIBtn from '../../components/QIBtn.vue';
 import { ref, watch } from 'vue';
-import { antiUseStore } from '../../store/anti/index.js'
-import request from '../../utils/request.js'; // 导入 request.js
+import { antiUseStore } from '../../store/anti/index.js';
+import request from '../../utils/request.js';
+import { ElMessage } from 'element-plus';
+import '@/assets/styles/function.css';
 
 const store = antiUseStore();
-const Heavy = ref('');
-const Light = ref('');
-const Anti = ref('');
+const heavy = ref('');
+const light = ref('');
+const anti = ref('');
 const antiResult = ref('');
+const loading = ref(false);
 
 const antiLoadExp = () => {
-    const heavyExp = 'QVQLQESGPGLVKPSQTLSLTCSFSGFSLSTSGMGVGWIRQPSGKGLEWLAHIWWDGDESYNPSLKSRLTISKDTSKNQVSLKITSVTAADTAVYFCARNRYDPPWFVDWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKRVEP'
-    const lightExp = 'PVRSLNCTLRDSQQKSLVMSGPYELKALHLQGQDMEQQVVFSMSFVQGEESNDKIPVALGLKEKNLYLSCVLKDDKPTLQLESVDPKNYPKKKMEKRFVFNKIEINNKLEFESAQFPNWYISTSQAENMPVFLGGTKGGQDITDFTMQFV'
-    const antiExp = 'DIQMTQSTSSLSASVGDRVTITCRASQDISNYLSWYQQKPGKAVKLLIYYTSKLHSGVPSRFSGSGSGTDYTLTISSLQQEDFATYFCLQGKMLPWTFGQGTKLEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGE'
-    Heavy.value = heavyExp;
-    Light.value = lightExp;
-    Anti.value = antiExp;
-    store.setHeavy(heavyExp);
-    store.setLight(lightExp);
-    store.setAnti(antiExp);
-}
+    heavy.value = 'QVQLQESGPGLVKPSQTLSLTCSFSGFSLSTSGMGVGWIRQPSGKGLEWLAHIWWDGDESYNPSLKSRLTISKDTSKNQVSLKITSVTAADTAVYFCARNRYDPPWFVDWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKRVEP';
+    light.value = 'PVRSLNCTLRDSQQKSLVMSGPYELKALHLQGQDMEQQVVFSMSFVQGEESNDKIPVALGLKEKNLYLSCVLKDDKPTLQLESVDPKNYPKKKMEKRFVFNKIEINNKLEFESAQFPNWYISTSQAENMPVFLGGTKGGQDITDFTMQFV';
+    anti.value = 'DIQMTQSTSSLSASVGDRVTITCRASQDISNYLSWYQQKPGKAVKLLIYYTSKLHSGVPSRFSGSGSGTDYTLTISSLQQEDFATYFCLQGKMLPWTFGQGTKLEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGE';
+    store.setHeavy(heavy.value);
+    store.setLight(light.value);
+    store.setAnti(anti.value);
+    ElMessage.success('示例数据已加载');
+};
 
 const antiRun = async () => {
+    if (!heavy.value || !light.value || !anti.value) {
+        ElMessage.warning('请输入所有序列');
+        return;
+    }
+    loading.value = true;
+    antiResult.value = '';
     try {
         const response = await request.post('/predict', {
-            seq_light: Light.value,
-            seq_heavy: Heavy.value,
-            seq_antigen: Anti.value,
+            seq_light: light.value,
+            seq_heavy: heavy.value,
+            seq_antigen: anti.value,
         });
-        console.log(response)
-        antiResult.value = response.prediction; // 假设返回的数据格式中有 result 字段
+        antiResult.value = response.prediction;
+        ElMessage.success('预测成功！');
     } catch (error) {
         console.error('请求失败:', error);
+        ElMessage.error('预测失败，请检查输入或稍后重试');
+    } finally {
+        loading.value = false;
     }
-
-    // console.log('antiRun1')
-    // console.log(antiResult)
-}
-
+};
 
 const antiReset = () => {
-    Heavy.value = '';
-    Light.value = '';
-    Anti.value = '';
+    heavy.value = '';
+    light.value = '';
+    anti.value = '';
+    antiResult.value = '';
     store.setHeavy('');
     store.setLight('');
     store.setAnti('');
-}
+};
 
-
-watch(Heavy, (newValue) => {
-    store.setHeavy(newValue);
-})
-watch(Light, (newValue) => {
-    store.setLight(newValue);
-})
-watch(Anti, (newValue) => {
-    store.setAnti(newValue);
-})
-
-
-
+watch(heavy, (newValue) => { store.setHeavy(newValue); });
+watch(light, (newValue) => { store.setLight(newValue); });
+watch(anti, (newValue) => { store.setAnti(newValue); });
 </script>
-
-
-<style lang="scss" scoped>
-.antigenContain {
-    width: 100%;
-    min-height: 120vh;
-    display: flex;
-    justify-content: center;
-
-    .antigenCard {
-        margin-top: 100px;
-        width: 80%;
-        min-height: 120vh;
-        background-color: #ffffff;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-
-        .antigenTitle {
-            margin-top: -50px;
-            width: 100%;
-            min-height: 25vh;
-            border-bottom: 1px solid #ccc;
-
-            .antigenStep {
-                width: 100%;
-                height: 150px;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                flex-direction: row;
-
-                .antigenStepL {
-                    width: 100px;
-                    height: 100%;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    flex-direction: column;
-                }
-
-                .antigenStepL2 {
-                    width: 100px;
-                    height: 100%;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    background-color: #fff;
-                }
-
-                .antigenStepImg {
-                    width: 60px;
-                    height: 60px;
-                }
-
-                .antigenStepText {
-                    font-size: large;
-                }
-            }
-
-            .antigenTitleLarge {
-                padding: 10px;
-                font-size: 40px;
-                margin-top: 6vh;
-                margin-left: 120px;
-            }
-
-            .antigenTitleText {
-                width: 80%;
-                padding: 10px;
-                margin-left: 120px;
-                background-color: #f5f7f9;
-            }
-
-            .antigenInput {
-                width: 100%;
-                height: 50px;
-                font-size: 20px;
-                font-weight: 800;
-                margin-left: 120px;
-                margin-top: 10px;
-            }
-        }
-
-        .antigenMain {
-            width: 100%;
-            height: 100%;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-
-            .antigenMainIput {
-                width: 100%;
-                height: 40vh;
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-            }
-
-            .antigenMainOutput {
-                width: 100%;
-                height: 10vh;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                margin-top: 10vh;
-            }
-
-            .antigenMainResult {
-                width: 100%;
-                height: 10vh;
-                display: flex;
-                align-items: center;
-                justify-content: start;
-
-                .antigenResultTitle {
-                    font-weight: 800;
-                    font-size: 30px;
-                    margin-left: 120px;
-                }
-
-                .antigenResult {
-                    font-weight: 800;
-                    font-size: 30px;
-                    margin-left: 20px;
-                }
-            }
-        }
-    }
-}
-</style>

@@ -1,83 +1,119 @@
 <template>
-    <div class="titleBtn" @click="toggleDropdown">
+    <div class="titleBtn" @click="handleClick" @mouseenter="handleMouseEnter" @mouseleave="handleMouseLeave">
         {{ title }}
-        <span v-if="props.hasDropdown" class="arrow" :class="{ rotated: isOpen }">▼</span>
-    </div>
-
-    <div v-if="props.hasDropdown && isOpen" class="dropdown-menu" @click.stop="isOpen = false">
-        <slot name="dropdown"></slot>
+        <span v-if="hasDropdown" class="arrow" :class="{ 'rotated': isOpen }">▼</span>
+        <div v-if="hasDropdown" ref="dropdownContainer">
+            <slot name="dropdown"></slot>
+        </div>
     </div>
 </template>
 
 <script setup>
-import { ref } from 'vue';
+import { ref, onMounted } from 'vue';
+import gsap from 'gsap';
 
-// 通过 defineProps 获取 props
 const props = defineProps({
     title: String,
     hasDropdown: Boolean
 });
 
+const emit = defineEmits(['main-click']);
+
 const isOpen = ref(false);
-const emit = defineEmits(['click']);
+const dropdownContainer = ref(null);
+let timeline;
+
+onMounted(() => {
+    if (props.hasDropdown && dropdownContainer.value) {
+        const dropdownMenu = dropdownContainer.value.querySelector('.dropdown-menu');
+        if (dropdownMenu) {
+            gsap.set(dropdownMenu, { autoAlpha: 0, y: -10 });
+            timeline = gsap.timeline({ paused: true })
+                .to(dropdownMenu, {
+                    autoAlpha: 1,
+                    y: 0,
+                    duration: 0.3,
+                    ease: 'power2.out'
+                });
+        }
+    }
+});
+
+const handleClick = () => {
+    if (!props.hasDropdown) {
+        emit('main-click');
+    } else {
+        toggleDropdown();
+    }
+};
+
+const handleMouseEnter = () => {
+    if (props.hasDropdown) {
+        isOpen.value = true;
+        timeline?.play();
+    }
+};
+
+const handleMouseLeave = () => {
+    if (props.hasDropdown) {
+        timeline?.reverse().then(() => {
+            isOpen.value = false;
+        });
+    }
+};
 
 const toggleDropdown = () => {
-    if (!props.hasDropdown) {
-        emit('click');
-    }
     isOpen.value = !isOpen.value;
+    if (isOpen.value) {
+        timeline?.play();
+    } else {
+        timeline?.reverse();
+    }
 };
 </script>
 
 <style lang="scss" scoped>
 .titleBtn {
     height: 100%;
-    width: 25%;
+    padding: 0 25px;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: black;
+    color: #333;
+    font-size: 1rem;
+    font-weight: 500;
     cursor: pointer;
     position: relative;
-    transition: all 0.3s ease;
+    transition: color 0.3s ease;
+
+    &::after {
+        content: '';
+        position: absolute;
+        bottom: 15px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 0;
+        height: 2px;
+        background-color: #1e3a8a;
+        transition: width 0.3s ease;
+    }
 }
 
 .titleBtn:hover {
-    color: rebeccapurple;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    color: #1e3a8a;
+
+    &::after {
+        width: 80%;
+    }
 }
 
 .arrow {
-    margin-left: 5px;
+    margin-left: 8px;
+    font-size: 0.7rem;
     transition: transform 0.3s ease;
 }
 
 .rotated {
     transform: rotate(180deg);
-}
-
-/* 下拉菜单 */
-.dropdown-menu {
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    transform: translateX(-50%);
-    background: white;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-    border-radius: 5px;
-    width: 120px;
-    // padding: 5px 0;
-    z-index: 1000;
-}
-
-.menu-item {
-    padding: 8px 12px;
-    text-align: center;
-    cursor: pointer;
-    transition: background 0.3s ease;
-}
-
-.menu-item:hover {
-    background: #eee;
 }
 </style>

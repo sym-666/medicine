@@ -1,139 +1,129 @@
-<!-- 注册页面 -->
 <template>
-    <div class="registerContain">
-        <div class="registerCard">
-            <div class="registerCardTitle">注册用户</div>
-            <div class="registerAccount">
-                <input v-model="form.account" type="text" class="register-input" placeholder="请输入账号或邮箱" name="account">
+    <div class="auth-container">
+        <div class="auth-card">
+            <h1 class="auth-title">创建新账户</h1>
+            <p class="auth-subtitle">加入我们，开启智能药物分析之旅</p>
+
+            <el-form ref="registerFormRef" :model="registerForm" :rules="registerRules" class="auth-form"
+                @keyup.enter="handleRegister">
+                <el-form-item prop="account">
+                    <el-input v-model="registerForm.account" placeholder="请输入您的邮箱作为账号" size="large" clearable>
+                        <template #prefix>
+                            <i class="fas fa-envelope"></i>
+                        </template>
+                    </el-input>
+                </el-form-item>
+
+                <el-form-item prop="phone">
+                    <el-input v-model="registerForm.phone" placeholder="请输入手机号" size="large" clearable>
+                        <template #prefix>
+                            <i class="fas fa-mobile-alt"></i>
+                        </template>
+                    </el-input>
+                </el-form-item>
+
+                <el-form-item prop="password">
+                    <el-input v-model="registerForm.password" type="password" placeholder="请设置密码" size="large"
+                        show-password clearable>
+                        <template #prefix>
+                            <i class="fas fa-lock"></i>
+                        </template>
+                    </el-input>
+                </el-form-item>
+
+                <el-form-item prop="confirmPassword">
+                    <el-input v-model="registerForm.confirmPassword" type="password" placeholder="请再次输入密码" size="large"
+                        show-password clearable>
+                        <template #prefix>
+                            <i class="fas fa-check-circle"></i>
+                        </template>
+                    </el-input>
+                </el-form-item>
+
+                <el-form-item>
+                    <el-button type="primary" class="auth-button" size="large" @click="handleRegister"
+                        :loading="loading">
+                        注 册
+                    </el-button>
+                </el-form-item>
+            </el-form>
+
+            <div class="auth-footer">
+                <span>已有账户？</span>
+                <el-link type="primary" @click="backToLogin">返回登录</el-link>
             </div>
-            <div class="registerPhone">
-                <input v-model="form.phone" type="text" class="register-input" placeholder="手机号" name="account">
-            </div>
-            <div class="registerPassword">
-                <input v-model="form.password" type="password" class="register-input" placeholder="请输入密码"
-                    name="password">
-            </div>
-            <div class="registerLogin" @click="handleRegister">注册</div>
-            <div class="registerCreate" @click="backLogin">返回登录</div>
         </div>
     </div>
 </template>
 
 <script setup>
+import { ref, reactive } from 'vue';
 import { useRouter } from 'vue-router';
-import { ref } from 'vue';
+import { useUserStore } from '@/store/user';
 import { ElMessage } from 'element-plus';
+import '@/assets/styles/auth.css';
 
 const router = useRouter();
+const userStore = useUserStore();
+const registerFormRef = ref(null);
+const loading = ref(false);
 
-const form = ref({
+const registerForm = reactive({
     account: '',
-    username: '',
-    password: ''
+    phone: '',
+    password: '',
+    confirmPassword: '',
 });
 
-
-// 注册逻辑
-const handleRegister = () => {
-    ElMessage.success('注册成功');
-    form.value.account = '';
-    form.value.phone = '';
-    form.value.password = '';
+const validatePass = (rule, value, callback) => {
+    if (value === '') {
+        callback(new Error('请再次输入密码'));
+    } else if (value !== registerForm.password) {
+        callback(new Error("两次输入的密码不一致"));
+    } else {
+        callback();
+    }
 };
 
-const backLogin = () => {
-    router.push('/login'); // 跳转到注册页面
-};
-</script>
+const registerRules = reactive({
+    account: [
+        { required: true, message: '请输入邮箱地址', trigger: 'blur' },
+        { type: 'email', message: '请输入有效的邮箱地址', trigger: ['blur', 'change'] }
+    ],
+    phone: [
+        { required: true, message: '请输入手机号', trigger: 'blur' },
+        { pattern: /^1[3-9]\d{9}$/, message: '请输入有效的手机号', trigger: 'blur' }
+    ],
+    password: [
+        { required: true, message: '请输入密码', trigger: 'blur' },
+        { min: 6, message: '密码长度不能少于6位', trigger: 'blur' }
+    ],
+    confirmPassword: [
+        { required: true, validator: validatePass, trigger: 'blur' }
+    ],
+});
 
-<style lang="scss" scoped>
-.registerContain {
-    width: 100%;
-    height: 120vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    // background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
-    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
-
-    .registerCard {
-        width: 30%;
-        height: 500px;
-        margin-top: -200px;
-        border-radius: 10px;
-        background-color: #ffffff;
-        overflow: hidden;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-
-        .registerCardTitle {
-            width: 100%;
-            height: 20%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-size: 30px;
-            font-weight: 800;
-        }
-
-        .registerAccount,
-        .registerPassword,
-        .registerPhone {
-            width: 100%;
-            height: 20%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-size: 14px;
-            color: #333;
-            margin-top: -20px;
-        }
-
-        .register-input {
-            width: 300px;
-            padding: 8px 12px;
-            border: 1px solid #ddd;
-            border-radius: 4px;
-            font-size: 14px;
-            border: none;
-            background-color: #f6f9f9;
-            height: 40px;
-        }
-
-        .register-input:focus {
-            outline: none;
-            border-color: #409eff;
-            box-shadow: 0 0 3px rgba(64, 158, 255, 0.3);
-        }
-
-        .registerLogin {
-            width: 50%;
-            height: 10%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background-color: #7fceef;
-            color: white;
-            border-radius: 3%;
-            cursor: pointer;
-
-            &:hover {
-                background-color: #a1e2f6;
+const handleRegister = async () => {
+    if (!registerFormRef.value) return;
+    await registerFormRef.value.validate(async (valid) => {
+        if (valid) {
+            loading.value = true;
+            try {
+                await userStore.register(registerForm);
+                ElMessage.success('注册成功！即将跳转到登录页');
+                setTimeout(() => {
+                    router.push('/login');
+                }, 1500);
+            } catch (error) {
+                ElMessage.error(error.message || '注册失败，请重试');
+            } finally {
+                loading.value = false;
             }
         }
+    });
+};
 
-        .registerCreate {
-            margin-left: 40%;
-            color: gray;
-            cursor: pointer;
-        }
-
-        .registerCreate:hover {
-            color: #7fceef;
-            /* 鼠标悬停时颜色变为深蓝色 */
-        }
-    }
-}
-</style>
+const backToLogin = () => {
+    router.push('/login');
+};
+</script>

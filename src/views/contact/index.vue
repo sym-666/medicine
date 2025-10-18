@@ -5,21 +5,18 @@
             <div class="contactCardTop">
                 <div class="contactInfo">
                     <div class="contactinfoTitle">
-                        <img class="contactimg" src="../../assets/images/contactP1.png" alt="">
                         联系人
                     </div>
                     <div class="contactinfoText">袁立沛</div>
                 </div>
                 <div class="contactInfo">
                     <div class="contactinfoTitle">
-                        <img class="contactimg" src="../../assets/images/contactP2.png" alt="">
                         电话/微信
                     </div>
                     <div class="contactinfoText">18612506617</div>
                 </div>
                 <div class="contactInfo">
                     <div class="contactinfoTitle">
-                        <img class="contactimg" src="../../assets/images/contactP3.png" alt="">
                         邮箱
                     </div>
                     <div class="contactinfoText">yuanlp2004@163.com</div>
