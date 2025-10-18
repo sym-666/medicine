@@ -39,6 +39,9 @@ jobs:
           npm config set fetch-retry-maxtimeout 120000
           npm config set fetch-timeout 300000
 
+      - name: Remove package-lock.json to avoid registry issues
+        run: rm -f package-lock.json
+
       - name: Verify npm registry
         run: npm config get registry
 
