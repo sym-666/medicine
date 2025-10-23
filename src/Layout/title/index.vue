@@ -123,7 +123,7 @@ onMounted(() => {
     // 延迟执行以确保DOM完全渲染
     setTimeout(() => {
         gsap.from('.titleBtn', {
-            y: -30,
+            //这里设置导致了错误
             opacity: 0,
             duration: 0.6,
             stagger: 0.1,
@@ -132,7 +132,7 @@ onMounted(() => {
     }, 100);
 
     gsap.from('.logo-container', {
-        x: -50,
+        x: -100,
         opacity: 0,
         duration: 0.8,
         delay: 0.3,
