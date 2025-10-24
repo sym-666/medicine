@@ -1,0 +1,3800 @@
+/HARD-DATA/WY/anaconda3/envs/dta/lib/python3.9/site-packages/dgl/heterograph.py:72: DGLWarning: Recommend creating graphs by `dgl.graph(data)` instead of `dgl.DGLGraph(data)`.
+  dgl_warning('Recommend creating graphs by `dgl.graph(data)`'
+/HARD-DATA/WY/anaconda3/envs/dta/lib/python3.9/site-packages/dgl/backend/pytorch/tensor.py:352: UserWarning: TypedStorage is deprecated. It will be removed in the future and UntypedStorage will be the only storage class. This should only matter to you if you are using storages directly.  To access UntypedStorage directly, use tensor.untyped_storage() instead of tensor.storage()
+  assert input.numel() == input.storage().size(), "Cannot convert view " \
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/anaconda3/envs/dta/lib/python3.9/site-packages/dgl/heterograph.py:72: DGLWarning: Recommend creating graphs by `dgl.graph(data)` instead of `dgl.DGLGraph(data)`.
+  dgl_warning('Recommend creating graphs by `dgl.graph(data)`'
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+cuda:1
+TVdataset: 435
+Train DataFrame has 348 rows.
+Test DataFrame has 87 rows.
+Start raining.
+traindataset 227,0,0,121
+test 54 0 0 33
+fold  1  AUC improved at epoch  1 ;	best_auc: 0.648709315375982
+traindataset 227,0,0,121
+test 54 0 0 33
+fold  1  AUC improved at epoch  2 ;	best_auc: 0.6621773288439956
+traindataset 227,0,0,121
+test 54 0 0 33
+fold  1  AUC improved at epoch  3 ;	best_auc: 0.6655443322109988
+traindataset 227,0,0,121
+test 54 0 0 33
+fold  1  AUC improved at epoch  4 ;	best_auc: 0.6734006734006734
+traindataset 227,0,0,121
+test 54 0 0 33
+traindataset 227,0,0,121
+test 54 0 0 33
+fold  1  AUC improved at epoch  6 ;	best_auc: 0.6790123456790123
+traindataset 227,9,0,112
+test 49 19 5 14
+fold  1  AUC improved at epoch  7 ;	best_auc: 0.7138047138047138
+traindataset 216,54,11,67
+test 42 20 12 13
+fold  1  AUC improved at epoch  8 ;	best_auc: 0.7530864197530864
+traindataset 211,70,16,51
+test 41 20 13 13
+fold  1  AUC improved at epoch  9 ;	best_auc: 0.7794612794612794
+traindataset 197,80,30,41
+test 44 20 10 13
+fold  1  AUC improved at epoch  10 ;	best_auc: 0.7833894500561167
+traindataset 202,73,25,48
+test 44 20 10 13
+fold  1  AUC improved at epoch  11 ;	best_auc: 0.7974186307519641
+traindataset 204,74,23,47
+test 45 20 9 13
+fold  1  AUC improved at epoch  12 ;	best_auc: 0.8024691358024691
+traindataset 202,77,25,44
+test 47 20 7 13
+fold  1  AUC improved at epoch  13 ;	best_auc: 0.8063973063973063
+traindataset 207,76,20,45
+test 45 20 9 13
+traindataset 208,79,19,42
+test 48 19 6 14
+fold  1  AUC improved at epoch  15 ;	best_auc: 0.819304152637486
+traindataset 208,82,19,39
+test 49 19 5 14
+fold  1  AUC improved at epoch  16 ;	best_auc: 0.8249158249158248
+traindataset 205,84,22,37
+test 50 19 4 14
+fold  1  AUC improved at epoch  17 ;	best_auc: 0.8288439955106621
+traindataset 210,81,17,40
+test 48 19 6 14
+traindataset 213,90,14,31
+test 46 19 8 14
+traindataset 209,92,18,29
+test 47 20 7 13
+fold  1  AUC improved at epoch  20 ;	best_auc: 0.8310886644219977
+traindataset 210,91,17,30
+test 45 21 9 12
+fold  1  AUC improved at epoch  21 ;	best_auc: 0.8378226711560044
+traindataset 209,91,18,30
+test 40 22 14 11
+Epoch 00022: reducing learning rate of group 0 to 8.0000e-05.
+fold  1  AUC improved at epoch  22 ;	best_auc: 0.8383838383838385
+traindataset 205,99,22,22
+test 47 21 7 12
+traindataset 210,100,17,21
+test 47 20 7 13
+traindataset 204,100,23,21
+test 46 20 8 13
+traindataset 205,99,22,22
+test 46 21 8 12
+traindataset 208,101,19,20
+test 40 23 14 10
+traindataset 206,98,21,23
+test 40 23 14 10
+fold  1  AUC improved at epoch  28 ;	best_auc: 0.8434343434343434
+traindataset 205,100,22,21
+test 40 23 14 10
+fold  1  AUC improved at epoch  29 ;	best_auc: 0.8445566778900112
+traindataset 209,104,18,17
+test 45 22 9 11
+traindataset 209,105,18,16
+test 44 22 10 11
+traindataset 206,106,21,15
+test 46 21 8 12
+traindataset 209,108,18,13
+test 45 21 9 12
+traindataset 206,106,21,15
+test 45 21 9 12
+traindataset 211,109,16,12
+test 43 21 11 12
+traindataset 205,109,22,12
+test 45 21 9 12
+traindataset 210,104,17,17
+test 43 22 11 11
+traindataset 209,104,18,17
+test 42 23 12 10
+traindataset 213,106,14,15
+test 44 22 10 11
+traindataset 210,111,17,10
+test 44 22 10 11
+traindataset 210,108,17,13
+test 42 24 12 9
+traindataset 214,112,13,9
+test 43 23 11 10
+traindataset 211,109,16,12
+test 44 23 10 10
+Epoch 00043: reducing learning rate of group 0 to 6.4000e-05.
+traindataset 209,113,18,8
+test 45 22 9 11
+traindataset 208,110,19,11
+test 45 22 9 11
+traindataset 214,108,13,13
+test 40 23 14 10
+traindataset 213,112,14,9
+test 42 22 12 11
+traindataset 213,113,14,8
+test 44 23 10 10
+traindataset 212,115,15,6
+test 43 23 11 10
+traindataset 214,111,13,10
+test 45 22 9 11
+fold  1  AUC improved at epoch  50 ;	best_auc: 0.8468013468013468
+traindataset 211,111,16,10
+test 44 23 10 10
+fold  1  AUC improved at epoch  51 ;	best_auc: 0.8468013468013469
+traindataset 215,108,12,13
+test 40 23 14 10
+traindataset 215,110,12,11
+test 39 24 15 9
+fold  1  AUC improved at epoch  53 ;	best_auc: 0.8490460157126823
+traindataset 216,112,11,9
+test 39 24 15 9
+fold  1  AUC improved at epoch  54 ;	best_auc: 0.8524130190796857
+traindataset 219,113,8,8
+test 39 23 15 10
+traindataset 214,114,13,7
+test 42 25 12 8
+traindataset 217,114,10,7
+test 39 24 15 9
+traindataset 216,113,11,8
+test 41 24 13 9
+traindataset 218,112,9,9
+test 39 24 15 9
+traindataset 217,114,10,7
+test 42 24 12 9
+traindataset 217,114,10,7
+test 45 23 9 10
+traindataset 217,110,10,11
+test 43 23 11 10
+traindataset 216,114,11,7
+test 45 22 9 11
+traindataset 215,112,12,9
+test 37 26 17 7
+Epoch 00064: reducing learning rate of group 0 to 5.1200e-05.
+traindataset 218,111,9,10
+test 39 24 15 9
+traindataset 214,114,13,7
+test 44 23 10 10
+traindataset 217,114,10,7
+test 40 24 14 9
+traindataset 216,115,11,6
+test 42 24 12 9
+traindataset 218,115,9,6
+test 39 25 15 8
+traindataset 217,117,10,4
+test 39 25 15 8
+traindataset 218,114,9,7
+test 42 24 12 9
+traindataset 217,117,10,4
+test 42 24 12 9
+traindataset 217,110,10,11
+test 40 25 14 8
+traindataset 220,117,7,4
+test 44 24 10 9
+traindataset 219,113,8,8
+test 42 24 12 9
+traindataset 216,112,11,9
+test 43 24 11 9
+traindataset 216,117,11,4
+test 42 24 12 9
+traindataset 219,115,8,6
+test 42 24 12 9
+traindataset 217,117,10,4
+test 41 25 13 8
+traindataset 219,114,8,7
+test 42 24 12 9
+traindataset 219,117,8,4
+test 42 24 12 9
+traindataset 218,117,9,4
+test 41 24 13 9
+traindataset 217,114,10,7
+test 41 24 13 9
+traindataset 217,117,10,4
+test 42 24 12 9
+Train DataFrame has 348 rows.
+Test DataFrame has 87 rows.
+Start raining.
+traindataset 201,10,23,114
+test 57 0 0 30
+fold  2  AUC improved at epoch  1 ;	best_auc: 0.7146198830409357
+traindataset 224,0,0,124
+test 57 0 0 30
+fold  2  AUC improved at epoch  2 ;	best_auc: 0.7526315789473685
+traindataset 224,0,0,124
+test 57 0 0 30
+fold  2  AUC improved at epoch  3 ;	best_auc: 0.760233918128655
+traindataset 224,0,0,124
+test 57 0 0 30
+traindataset 224,0,0,124
+test 57 0 0 30
+fold  2  AUC improved at epoch  5 ;	best_auc: 0.7608187134502924
+traindataset 224,0,0,124
+test 57 0 0 30
+traindataset 224,0,0,124
+test 57 0 0 30
+fold  2  AUC improved at epoch  7 ;	best_auc: 0.7789473684210526
+traindataset 224,16,0,108
+test 54 17 3 13
+fold  2  AUC improved at epoch  8 ;	best_auc: 0.7988304093567251
+traindataset 213,57,11,67
+test 52 18 5 12
+fold  2  AUC improved at epoch  9 ;	best_auc: 0.8169590643274853
+traindataset 203,72,21,52
+test 53 17 4 13
+fold  2  AUC improved at epoch  10 ;	best_auc: 0.8374269005847953
+traindataset 196,77,28,47
+test 51 18 6 12
+fold  2  AUC improved at epoch  11 ;	best_auc: 0.8426900584795322
+traindataset 203,72,21,52
+test 52 18 5 12
+fold  2  AUC improved at epoch  12 ;	best_auc: 0.8485380116959065
+traindataset 204,74,20,50
+test 54 17 3 13
+fold  2  AUC improved at epoch  13 ;	best_auc: 0.8532163742690058
+traindataset 208,73,16,51
+test 52 16 5 14
+fold  2  AUC improved at epoch  14 ;	best_auc: 0.8573099415204678
+traindataset 212,70,12,54
+test 54 16 3 14
+traindataset 208,76,16,48
+test 55 15 2 15
+fold  2  AUC improved at epoch  16 ;	best_auc: 0.8637426900584795
+traindataset 212,75,12,49
+test 54 15 3 15
+traindataset 216,72,8,52
+test 54 15 3 15
+fold  2  AUC improved at epoch  18 ;	best_auc: 0.8660818713450292
+traindataset 206,78,18,46
+test 54 15 3 15
+traindataset 211,75,13,49
+test 54 16 3 14
+traindataset 214,80,10,44
+test 52 20 5 10
+traindataset 210,76,14,48
+test 51 18 6 12
+Epoch 00022: reducing learning rate of group 0 to 8.0000e-05.
+traindataset 206,85,18,39
+test 54 17 3 13
+traindataset 211,82,13,42
+test 52 18 5 12
+fold  2  AUC improved at epoch  24 ;	best_auc: 0.867251461988304
+traindataset 212,83,12,41
+test 52 18 5 12
+traindataset 210,86,14,38
+test 53 19 4 11
+traindataset 211,87,13,37
+test 51 19 6 11
+traindataset 207,86,17,38
+test 51 20 6 10
+fold  2  AUC improved at epoch  28 ;	best_auc: 0.8730994152046784
+traindataset 209,93,15,31
+test 52 19 5 11
+fold  2  AUC improved at epoch  29 ;	best_auc: 0.8748538011695907
+traindataset 212,94,12,30
+test 51 22 6 8
+fold  2  AUC improved at epoch  30 ;	best_auc: 0.876608187134503
+traindataset 209,96,15,28
+test 50 21 7 9
+traindataset 209,96,15,28
+test 49 21 8 9
+fold  2  AUC improved at epoch  32 ;	best_auc: 0.8789473684210526
+traindataset 208,95,16,29
+test 49 20 8 10
+traindataset 205,102,19,22
+/HARD-DATA/WY/anaconda3/envs/dta/lib/python3.9/site-packages/dgl/heterograph.py:72: DGLWarning: Recommend creating graphs by `dgl.graph(data)` instead of `dgl.DGLGraph(data)`.
+  dgl_warning('Recommend creating graphs by `dgl.graph(data)`'
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+test 52 20 5 10
+traindataset 212,96,12,28
+test 51 19 6 11
+traindataset 212,95,12,29
+test 50 21 7 9
+traindataset 208,97,16,27
+test 51 21 6 9
+traindataset 206,99,18,25
+test 53 16 4 14
+traindataset 209,101,15,23
+test 51 21 6 9
+fold  2  AUC improved at epoch  39 ;	best_auc: 0.8842105263157894
+traindataset 210,103,14,21
+test 49 21 8 9
+traindataset 211,100,13,24
+test 46 24 11 6
+traindataset 210,102,14,22
+test 47 24 10 6
+traindataset 213,103,11,21
+test 48 24 9 6
+Epoch 00043: reducing learning rate of group 0 to 6.4000e-05.
+traindataset 210,103,14,21
+test 51 22 6 8
+traindataset 209,108,15,16
+test 51 21 6 9
+traindataset 208,101,16,23
+test 51 21 6 9
+traindataset 209,106,15,18
+test 48 22 9 8
+traindataset 214,107,10,17
+test 50 24 7 6
+traindataset 212,108,12,16
+test 43 24 14 6
+traindataset 210,109,14,15
+test 44 24 13 6
+traindataset 213,111,11,13
+test 48 24 9 6
+traindataset 213,106,11,18
+test 47 24 10 6
+traindataset 210,109,14,15
+test 48 24 9 6
+traindataset 213,114,11,10
+test 49 24 8 6
+traindataset 211,112,13,12
+test 48 23 9 7
+traindataset 209,112,15,12
+test 48 24 9 6
+traindataset 212,112,12,12
+test 49 24 8 6
+traindataset 208,111,16,13
+test 50 24 7 6
+traindataset 208,108,16,16
+test 44 24 13 6
+traindataset 211,111,13,13
+test 43 25 14 5
+traindataset 209,113,15,11
+test 48 23 9 7
+traindataset 208,113,16,11
+test 50 23 7 7
+traindataset 210,111,14,13
+test 48 24 9 6
+fold  2  AUC improved at epoch  63 ;	best_auc: 0.8859649122807017
+traindataset 209,109,15,15
+test 41 25 16 5
+Epoch 00064: reducing learning rate of group 0 to 5.1200e-05.
+traindataset 209,111,15,13
+test 49 23 8 7
+traindataset 207,111,17,13
+test 49 23 8 7
+traindataset 213,114,11,10
+test 45 24 12 6
+traindataset 212,110,12,14
+test 47 24 10 6
+traindataset 210,112,14,12
+test 48 23 9 7
+traindataset 213,114,11,10
+test 47 24 10 6
+traindataset 213,114,11,10
+test 47 23 10 7
+traindataset 215,117,9,7
+test 46 23 11 7
+traindataset 209,116,15,8
+test 47 24 10 6
+traindataset 213,115,11,9
+test 45 24 12 6
+traindataset 210,112,14,12
+test 48 24 9 6
+traindataset 210,114,14,10
+test 46 24 11 6
+traindataset 211,114,13,10
+test 46 24 11 6
+traindataset 212,112,12,12
+test 47 24 10 6
+traindataset 212,117,12,7
+test 48 24 9 6
+traindataset 213,114,11,10
+test 47 24 10 6
+traindataset 211,110,13,14
+test 47 24 10 6
+traindataset 213,113,11,11
+test 47 24 10 6
+traindataset 212,117,12,7
+test 50 24 7 6
+traindataset 209,115,15,9
+test 47 24 10 6
+traindataset 213,114,11,10
+test 46 24 11 6
+Epoch 00085: reducing learning rate of group 0 to 4.0960e-05.
+traindataset 211,115,13,9
+test 47 24 10 6
+traindataset 214,115,10,9
+test 47 24 10 6
+traindataset 212,117,12,7
+test 49 24 8 6
+traindataset 211,114,13,10
+test 47 24 10 6
+traindataset 209,116,15,8
+test 45 24 12 6
+traindataset 211,113,13,11
+test 48 24 9 6
+traindataset 212,118,12,6
+test 50 24 7 6
+traindataset 212,117,12,7
+test 46 24 11 6
+Train DataFrame has 348 rows.
+Test DataFrame has 87 rows.
+Start raining.
+traindataset 220,5,9,114
+test 52 0 0 35
+fold  3  AUC improved at epoch  1 ;	best_auc: 0.6379120879120879
+traindataset 229,0,0,119
+test 52 0 0 35
+fold  3  AUC improved at epoch  2 ;	best_auc: 0.6708791208791208
+traindataset 229,0,0,119
+test 52 0 0 35
+traindataset 229,0,0,119
+test 52 0 0 35
+traindataset 229,0,0,119
+test 52 0 0 35
+traindataset 229,0,0,119
+test 52 0 0 35
+fold  3  AUC improved at epoch  6 ;	best_auc: 0.689010989010989
+traindataset 229,1,0,118
+test 49 18 3 17
+fold  3  AUC improved at epoch  7 ;	best_auc: 0.7230769230769231
+traindataset 216,53,13,66
+test 45 19 7 16
+fold  3  AUC improved at epoch  8 ;	best_auc: 0.7615384615384615
+traindataset 211,67,18,52
+test 47 18 5 17
+traindataset 189,85,40,34
+test 48 17 4 18
+traindataset 210,71,19,48
+test 47 17 5 18
+traindataset 212,72,17,47
+test 47 19 5 16
+fold  3  AUC improved at epoch  12 ;	best_auc: 0.7637362637362638
+traindataset 210,76,19,43
+test 48 17 4 18
+fold  3  AUC improved at epoch  13 ;	best_auc: 0.7769230769230769
+traindataset 206,76,23,43
+test 49 17 3 18
+fold  3  AUC improved at epoch  14 ;	best_auc: 0.7802197802197802
+traindataset 218,73,11,46
+test 47 17 5 18
+fold  3  AUC improved at epoch  15 ;	best_auc: 0.7879120879120879
+traindataset 217,70,12,49
+test 48 17 4 18
+fold  3  AUC improved at epoch  16 ;	best_auc: 0.7923076923076923
+traindataset 216,78,13,41
+test 49 17 3 18
+fold  3  AUC improved at epoch  17 ;	best_auc: 0.7999999999999999
+traindataset 214,78,15,41
+test 49 17 3 18
+fold  3  AUC improved at epoch  18 ;	best_auc: 0.8090659340659341
+traindataset 222,73,7,46
+test 48 17 4 18
+fold  3  AUC improved at epoch  19 ;	best_auc: 0.8148351648351648
+traindataset 221,77,8,42
+test 49 17 3 18
+traindataset 218,76,11,43
+test 49 17 3 18
+fold  3  AUC improved at epoch  21 ;	best_auc: 0.8153846153846155
+traindataset 220,74,9,45
+test 49 17 3 18
+Epoch 00022: reducing learning rate of group 0 to 8.0000e-05.
+traindataset 221,76,8,43
+test 49 17 3 18
+traindataset 220,79,9,40
+test 49 19 3 16
+traindataset 219,77,10,42
+test 49 19 3 16
+traindataset 218,76,11,43
+test 49 17 3 18
+traindataset 216,79,13,40
+test 49 17 3 18
+fold  3  AUC improved at epoch  27 ;	best_auc: 0.8156593406593405
+traindataset 220,74,9,45
+test 48 19 4 16
+fold  3  AUC improved at epoch  28 ;	best_auc: 0.8214285714285715
+traindataset 219,78,10,41
+test 49 18 3 17
+traindataset 218,79,11,40
+test 49 18 3 17
+fold  3  AUC improved at epoch  30 ;	best_auc: 0.8236263736263736
+traindataset 219,82,10,37
+test 49 19 3 16
+traindataset 218,78,11,41
+test 49 18 3 17
+traindataset 220,85,9,34
+test 49 20 3 15
+traindataset 219,81,10,38
+test 49 20 3 15
+traindataset 221,83,8,36
+test 49 20 3 15
+traindataset 218,87,11,32
+test 49 20 3 15
+traindataset 216,84,13,35
+test 49 20 3 15
+fold  3  AUC improved at epoch  37 ;	best_auc: 0.8384615384615385
+traindataset 218,88,11,31
+test 49 18 3 17
+traindataset 219,85,10,34
+test 48 20 4 15
+traindataset 219,87,10,32
+test 49 20 3 15
+traindataset 219,84,10,35
+test 48 20 4 15
+traindataset 219,85,10,34
+test 49 21 3 14
+traindataset 220,87,9,32
+test 49 20 3 15
+Epoch 00043: reducing learning rate of group 0 to 6.4000e-05.
+traindataset 219,85,10,34
+test 49 20 3 15
+traindataset 222,89,7,30
+test 48 21 4 14
+traindataset 221,90,8,29
+test 48 21 4 14
+traindataset 219,89,10,30
+test 48 21 4 14
+traindataset 223,90,6,29
+test 48 21 4 14
+fold  3  AUC improved at epoch  48 ;	best_auc: 0.8434065934065934
+traindataset 220,89,9,30
+test 49 21 3 14
+traindataset 220,87,9,32
+test 49 21 3 14
+fold  3  AUC improved at epoch  50 ;	best_auc: 0.8445054945054945
+traindataset 221,90,8,29
+test 49 21 3 14
+fold  3  AUC improved at epoch  51 ;	best_auc: 0.860989010989011
+traindataset 219,87,10,32
+test 48 21 4 14
+traindataset 221,91,8,28
+test 48 21 4 14
+traindataset 220,93,9,26
+test 48 21 4 14
+traindataset 219,92,10,27
+test 48 22 4 13
+traindataset 220,93,9,26
+test 48 21 4 14
+traindataset 222,92,7,27
+test 48 21 4 14
+traindataset 220,92,9,27
+test 47 22 5 13
+traindataset 221,88,8,31
+test 49 21 3 14
+traindataset 221,92,8,27
+test 49 21 3 14
+fold  3  AUC improved at epoch  60 ;	best_auc: 0.8681318681318682
+traindataset 218,92,11,27
+test 49 19 3 16
+traindataset 218,91,11,28
+test 49 21 3 14
+traindataset 222,93,7,26
+test 48 22 4 13
+traindataset 220,91,9,28
+test 47 23 5 12
+Epoch 00064: reducing learning rate of group 0 to 5.1200e-05.
+traindataset 219,95,10,24
+test 47 23 5 12
+traindataset 220,97,9,22
+test 49 24 3 11
+traindataset 220,96,9,23
+test 48 25 4 10
+fold  3  AUC improved at epoch  67 ;	best_auc: 0.8703296703296703
+traindataset 218,95,11,24
+test 49 24 3 11
+traindataset 218,97,11,22
+test 49 25 3 10
+traindataset 219,95,10,24
+test 48 25 4 10
+traindataset 221,94,8,25
+test 45 25 7 10
+traindataset 216,95,13,24
+test 43 25 9 10
+traindataset 216,97,13,22
+test 48 25 4 10
+traindataset 215,102,14,17
+test 49 25 3 10
+traindataset 213,96,16,23
+test 49 21 3 14
+traindataset 218,99,11,20
+test 49 25 3 10
+traindataset 220,94,9,25
+test 46 26 6 9
+traindataset 219,100,10,19
+test 46 26 6 9
+traindataset 217,103,12,16
+test 46 26 6 9
+traindataset 218,100,11,19
+test 48 25 4 10
+traindataset 215,100,14,19
+test 47 24 5 11
+traindataset 219,102,10,17
+test 47 26 5 9
+traindataset 218,102,11,17
+test 45 27 7 8
+traindataset 215,100,14,19
+test 45 28 7 7
+traindataset 218,98,11,21
+test 45 27 7 8
+Epoch 00085: reducing learning rate of group 0 to 4.0960e-05.
+/HARD-DATA/WY/anaconda3/envs/dta/lib/python3.9/site-packages/dgl/heterograph.py:72: DGLWarning: Recommend creating graphs by `dgl.graph(data)` instead of `dgl.DGLGraph(data)`.
+  dgl_warning('Recommend creating graphs by `dgl.graph(data)`'
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/anaconda3/envs/dta/lib/python3.9/site-packages/dgl/heterograph.py:72: DGLWarning: Recommend creating graphs by `dgl.graph(data)` instead of `dgl.DGLGraph(data)`.
+  dgl_warning('Recommend creating graphs by `dgl.graph(data)`'
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+traindataset 221,106,8,13
+test 46 26 6 9
+traindataset 217,108,12,11
+test 45 27 7 8
+traindataset 218,101,11,18
+test 43 27 9 8
+traindataset 218,107,11,12
+test 44 27 8 8
+traindataset 219,108,10,11
+test 45 27 7 8
+traindataset 218,106,11,13
+test 42 27 10 8
+traindataset 219,112,10,7
+test 45 27 7 8
+traindataset 216,108,13,11
+test 46 27 6 8
+traindataset 217,108,12,11
+test 46 25 6 10
+traindataset 216,105,13,14
+test 43 27 9 8
+traindataset 219,106,10,13
+test 39 28 13 7
+traindataset 219,107,10,12
+test 41 28 11 7
+Train DataFrame has 348 rows.
+Test DataFrame has 87 rows.
+Start raining.
+traindataset 222,0,0,126
+test 59 0 0 28
+fold  4  AUC improved at epoch  1 ;	best_auc: 0.8492736077481841
+traindataset 222,0,0,126
+test 59 0 0 28
+fold  4  AUC improved at epoch  2 ;	best_auc: 0.8668280871670702
+traindataset 222,0,0,126
+test 59 0 0 28
+fold  4  AUC improved at epoch  3 ;	best_auc: 0.8728813559322034
+traindataset 222,0,0,126
+test 59 0 0 28
+fold  4  AUC improved at epoch  4 ;	best_auc: 0.8765133171912833
+traindataset 222,0,0,126
+test 59 0 0 28
+fold  4  AUC improved at epoch  5 ;	best_auc: 0.8771186440677966
+traindataset 222,0,0,126
+test 59 0 0 28
+fold  4  AUC improved at epoch  6 ;	best_auc: 0.8789346246973365
+traindataset 222,6,0,120
+test 57 20 2 8
+fold  4  AUC improved at epoch  7 ;	best_auc: 0.8940677966101696
+traindataset 206,60,16,66
+test 52 21 7 7
+traindataset 192,78,30,48
+test 46 23 13 5
+traindataset 196,80,26,46
+test 44 24 15 4
+fold  4  AUC improved at epoch  10 ;	best_auc: 0.8958837772397095
+traindataset 192,82,30,44
+test 46 23 13 5
+traindataset 194,81,28,45
+test 46 23 13 5
+traindataset 197,80,25,46
+test 47 23 12 5
+traindataset 187,84,35,42
+test 52 21 7 7
+traindataset 187,86,35,40
+test 50 22 9 6
+traindataset 195,83,27,43
+test 50 22 9 6
+traindataset 197,81,25,45
+test 52 21 7 7
+traindataset 198,79,24,47
+test 55 20 4 8
+traindataset 195,80,27,46
+test 57 20 2 8
+traindataset 199,82,23,44
+test 54 19 5 9
+fold  4  AUC improved at epoch  20 ;	best_auc: 0.8983050847457626
+traindataset 198,81,24,45
+test 54 19 5 9
+traindataset 203,80,19,46
+test 54 19 5 9
+Epoch 00022: reducing learning rate of group 0 to 8.0000e-05.
+traindataset 195,83,27,43
+test 57 19 2 9
+traindataset 195,89,27,37
+test 58 19 1 9
+traindataset 193,96,29,30
+test 55 19 4 9
+traindataset 205,89,17,37
+test 55 19 4 9
+traindataset 201,89,21,37
+test 56 20 3 8
+fold  4  AUC improved at epoch  27 ;	best_auc: 0.8989104116222761
+traindataset 197,92,25,34
+test 57 18 2 10
+traindataset 200,92,22,34
+test 58 18 1 10
+traindataset 201,96,21,30
+test 58 18 1 10
+traindataset 200,96,22,30
+test 55 19 4 9
+traindataset 205,98,17,28
+test 54 19 5 9
+traindataset 203,98,19,28
+test 53 19 6 9
+traindataset 200,98,22,28
+test 54 18 5 10
+traindataset 204,96,18,30
+test 49 21 10 7
+fold  4  AUC improved at epoch  35 ;	best_auc: 0.9019370460048426
+traindataset 207,94,15,32
+test 51 19 8 9
+traindataset 206,101,16,25
+test 53 18 6 10
+traindataset 205,105,17,21
+test 56 18 3 10
+traindataset 204,102,18,24
+test 55 19 4 9
+traindataset 203,101,19,25
+test 56 18 3 10
+traindataset 206,103,16,23
+test 55 19 4 9
+traindataset 206,102,16,24
+test 54 18 5 10
+traindataset 207,106,15,20
+test 55 18 4 10
+Epoch 00043: reducing learning rate of group 0 to 6.4000e-05.
+traindataset 208,105,14,21
+test 53 20 6 8
+traindataset 204,105,18,21
+test 55 19 4 9
+traindataset 206,107,16,19
+test 53 19 6 9
+traindataset 212,109,10,17
+test 54 19 5 9
+traindataset 202,108,20,18
+test 56 17 3 11
+traindataset 204,109,18,17
+test 54 18 5 10
+traindataset 204,105,18,21
+test 53 20 6 8
+traindataset 209,109,13,17
+test 47 22 12 6
+traindataset 205,113,17,13
+test 55 19 4 9
+traindataset 203,113,19,13
+test 56 19 3 9
+traindataset 204,109,18,17
+test 53 19 6 9
+traindataset 207,111,15,15
+test 52 19 7 9
+traindataset 208,107,14,19
+test 53 19 6 9
+traindataset 206,112,16,14
+test 50 19 9 9
+traindataset 206,114,16,12
+test 54 19 5 9
+traindataset 205,110,17,16
+test 53 19 6 9
+traindataset 208,113,14,13
+test 52 20 7 8
+traindataset 209,111,13,15
+test 52 21 7 7
+traindataset 204,117,18,9
+test 55 18 4 10
+traindataset 206,111,16,15
+test 51 23 8 5
+traindataset 210,108,12,18
+test 51 22 8 6
+Epoch 00064: reducing learning rate of group 0 to 5.1200e-05.
+traindataset 210,116,12,10
+test 54 18 5 10
+Train DataFrame has 348 rows.
+Test DataFrame has 87 rows.
+Start raining.
+traindataset 170,25,52,101
+test 59 0 0 28
+fold  5  AUC improved at epoch  1 ;	best_auc: 0.7433414043583535
+traindataset 222,0,0,126
+test 59 0 0 28
+fold  5  AUC improved at epoch  2 ;	best_auc: 0.7518159806295399
+traindataset 222,0,0,126
+test 59 0 0 28
+fold  5  AUC improved at epoch  3 ;	best_auc: 0.7693704600484261
+traindataset 222,0,0,126
+test 59 0 0 28
+fold  5  AUC improved at epoch  4 ;	best_auc: 0.7723970944309927
+traindataset 222,0,0,126
+test 59 0 0 28
+fold  5  AUC improved at epoch  5 ;	best_auc: 0.7796610169491525
+traindataset 222,0,0,126
+test 59 0 0 28
+fold  5  AUC improved at epoch  6 ;	best_auc: 0.7893462469733656
+traindataset 221,9,1,117
+test 58 9 1 19
+fold  5  AUC improved at epoch  7 ;	best_auc: 0.8014527845036319
+traindataset 207,55,15,71
+test 55 15 4 13
+fold  5  AUC improved at epoch  8 ;	best_auc: 0.8250605326876513
+traindataset 193,79,29,47
+test 55 15 4 13
+fold  5  AUC improved at epoch  9 ;	best_auc: 0.8401937046004843
+traindataset 196,79,26,47
+test 47 20 12 8
+fold  5  AUC improved at epoch  10 ;	best_auc: 0.8414043583535109
+traindataset 198,74,24,52
+test 49 20 10 8
+fold  5  AUC improved at epoch  11 ;	best_auc: 0.8456416464891041
+traindataset 197,83,25,43
+test 51 19 8 9
+fold  5  AUC improved at epoch  12 ;	best_auc: 0.849273607748184
+traindataset 192,81,30,45
+test 56 15 3 13
+fold  5  AUC improved at epoch  13 ;	best_auc: 0.8565375302663438
+traindataset 197,80,25,46
+test 56 15 3 13
+traindataset 202,78,20,48
+test 52 21 7 7
+traindataset 198,76,24,50
+test 52 21 7 7
+traindataset 196,81,26,45
+test 52 21 7 7
+traindataset 198,85,24,41
+test 53 20 6 8
+traindataset 198,86,24,40
+test 54 18 5 10
+fold  5  AUC improved at epoch  19 ;	best_auc: 0.8583535108958837
+traindataset 195,80,27,46
+test 53 18 6 10
+fold  5  AUC improved at epoch  20 ;	best_auc: 0.8704600484261501
+traindataset 197,87,25,39
+test 52 19 7 9
+fold  5  AUC improved at epoch  21 ;	best_auc: 0.8746973365617433
+traindataset 197,87,25,39
+test 53 18 6 10
+Epoch 00022: reducing learning rate of group 0 to 8.0000e-05.
+traindataset 200,88,22,38
+test 47 21 12 7
+traindataset 198,93,24,33
+test 50 20 9 8
+fold  5  AUC improved at epoch  24 ;	best_auc: 0.8789346246973365
+traindataset 200,97,22,29
+test 52 18 7 10
+fold  5  AUC improved at epoch  25 ;	best_auc: 0.8825665859564165
+traindataset 202,93,20,33
+test 53 18 6 10
+fold  5  AUC improved at epoch  26 ;	best_auc: 0.8837772397094431
+traindataset 199,98,23,28
+test 53 19 6 9
+traindataset 198,97,24,29
+test 56 17 3 11
+fold  5  AUC improved at epoch  28 ;	best_auc: 0.8868038740920097
+traindataset 199,94,23,32
+test 51 18 8 10
+traindataset 205,93,17,33
+test 47 19 12 9
+fold  5  AUC improved at epoch  30 ;	best_auc: 0.8910411622276029
+traindataset 200,102,22,24
+test 53 18 6 10
+traindataset 200,102,22,24
+test 54 17 5 11
+traindataset 202,97,20,29
+test 50 19 9 9
+fold  5  AUC improved at epoch  33 ;	best_auc: 0.8928571428571429
+traindataset 200,101,22,25
+test 52 19 7 9
+fold  5  AUC improved at epoch  34 ;	best_auc: 0.9061743341404358
+traindataset 203,101,19,25
+test 53 18 6 10
+traindataset 203,103,19,23
+test 55 16 4 12
+traindataset 203,106,19,20
+test 56 16 3 12
+traindataset 202,102,20,24
+test 53 17 6 11
+traindataset 205,102,17,24
+test 50 19 9 9
+traindataset 202,105,20,21
+test 53 18 6 10
+traindataset 208,105,14,21
+test 51 19 8 9
+traindataset 207,107,15,19
+test 54 18 5 10
+traindataset 203,108,19,18
+test 55 16 4 12
+Epoch 00043: reducing learning rate of group 0 to 6.4000e-05.
+traindataset 206,108,16,18
+test 53 17 6 11
+traindataset 204,106,18,20
+test 50 19 9 9
+traindataset 206,106,16,20
+test 54 19 5 9
+fold  5  AUC improved at epoch  46 ;	best_auc: 0.914043583535109
+traindataset 202,113,20,13
+test 56 15 3 13
+traindataset 209,113,13,13
+test 55 18 4 10
+traindataset 205,106,17,20
+test 53 19 6 9
+traindataset 208,109,14,17
+test 54 20 5 8
+fold  5  AUC improved at epoch  50 ;	best_auc: 0.9200968523002422
+traindataset 203,115,19,11
+test 54 17 5 11
+traindataset 209,110,13,16
+test 54 16 5 12
+fold  5  AUC improved at epoch  52 ;	best_auc: 0.9267554479418886
+traindataset 203,112,19,14
+test 55 16 4 12
+traindataset 206,110,16,16
+test 53 18 6 10
+traindataset 207,111,15,15
+test 51 21 8 7
+traindataset 208,112,14,14
+test 53 21 6 7
+traindataset 205,111,17,15
+test 54 20 5 8
+traindataset 206,110,16,16
+test 52 20 7 8
+traindataset 205,108,17,18
+test 48 21 11 7
+traindataset 206,111,16,15
+test 52 21 7 7
+traindataset 207,113,15,13
+test 53 19 6 9
+traindataset 209,115,13,11
+test 54 17 5 11
+traindataset 205,115,17,11
+test 55 14 4 14
+traindataset 207,108,15,18
+test 52 20 7 8
+Epoch 00064: reducing learning rate of group 0 to 5.1200e-05.
+traindataset 210,108,12,18
+test 49 23 10 5
+traindataset 205,117,17,9
+test 53 20 6 8
+traindataset 209,116,13,10
+test 52 20 7 8
+traindataset 209,111,13,15
+test 50 20 9 8
+traindataset 204,114,18,12
+test 54 20 5 8
+traindataset 209,117,13,9
+test 53 20 6 8
+traindataset 210,115,12,11
+test 54 20 5 8
+traindataset 207,115,15,11
+test 50 21 9 7
+traindataset 207,116,15,10
+test 51 21 8 7
+traindataset 209,119,13,7
+test 53 21 6 7
+traindataset 208,114,14,12
+test 53 23 6 5
+traindataset 209,114,13,12
+test 51 21 8 7
+traindataset 206,116,16,10
+test 52 21 7 7
+traindataset 206,112,16,14
+test 50 19 9 9
+traindataset 208,113,14,13
+test 51 22 8 6
+traindataset 209,115,13,11
+test 51 21 8 7
+traindataset 206,116,16,10
+test 54 21 5 7
+traindataset 212,116,10,10
+test 54 20 5 8
+/HARD-DATA/WY/anaconda3/envs/dta/lib/python3.9/site-packages/dgl/heterograph.py:72: DGLWarning: Recommend creating graphs by `dgl.graph(data)` instead of `dgl.DGLGraph(data)`.
+  dgl_warning('Recommend creating graphs by `dgl.graph(data)`'
+/HARD-DATA/WY/anaconda3/envs/dta/lib/python3.9/site-packages/dgl/backend/pytorch/tensor.py:352: UserWarning: TypedStorage is deprecated. It will be removed in the future and UntypedStorage will be the only storage class. This should only matter to you if you are using storages directly.  To access UntypedStorage directly, use tensor.untyped_storage() instead of tensor.storage()
+  assert input.numel() == input.storage().size(), "Cannot convert view " \
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/anaconda3/envs/dta/lib/python3.9/site-packages/dgl/heterograph.py:72: DGLWarning: Recommend creating graphs by `dgl.graph(data)` instead of `dgl.DGLGraph(data)`.
+  dgl_warning('Recommend creating graphs by `dgl.graph(data)`'
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+cuda:1
+TVdataset: 435
+Train DataFrame has 348 rows.
+Test DataFrame has 87 rows.
+Start raining.
+traindataset 151,39,76,82
+test 54 0 0 33
+fold  1  AUC improved at epoch  1 ;	best_auc: 0.6717171717171717
+traindataset 227,0,0,121
+test 54 0 0 33
+traindataset 227,0,0,121
+test 54 0 0 33
+traindataset 227,0,0,121
+test 54 0 0 33
+fold  1  AUC improved at epoch  4 ;	best_auc: 0.6784511784511784
+traindataset 227,0,0,121
+test 54 0 0 33
+fold  1  AUC improved at epoch  5 ;	best_auc: 0.6835016835016835
+traindataset 227,0,0,121
+test 54 0 0 33
+fold  1  AUC improved at epoch  6 ;	best_auc: 0.6902356902356902
+traindataset 227,0,0,121
+test 54 0 0 33
+fold  1  AUC improved at epoch  7 ;	best_auc: 0.7586980920314254
+traindataset 227,1,0,120
+test 54 0 0 33
+fold  1  AUC improved at epoch  8 ;	best_auc: 0.7856341189674523
+traindataset 226,14,1,107
+test 47 19 7 14
+traindataset 204,77,23,44
+test 42 20 12 13
+traindataset 202,76,25,45
+test 33 26 21 7
+traindataset 185,76,42,45
+test 48 19 6 14
+fold  1  AUC improved at epoch  12 ;	best_auc: 0.7861952861952861
+traindataset 203,75,24,46
+test 40 24 14 9
+fold  1  AUC improved at epoch  13 ;	best_auc: 0.7951739618406285
+traindataset 196,80,31,41
+test 46 20 8 13
+fold  1  AUC improved at epoch  14 ;	best_auc: 0.7968574635241302
+traindataset 204,75,23,46
+test 46 20 8 13
+fold  1  AUC improved at epoch  15 ;	best_auc: 0.8035914702581368
+traindataset 203,76,24,45
+test 50 19 4 14
+fold  1  AUC improved at epoch  16 ;	best_auc: 0.8114478114478114
+traindataset 201,74,26,47
+test 49 19 5 14
+fold  1  AUC improved at epoch  17 ;	best_auc: 0.818742985409652
+traindataset 208,73,19,48
+test 46 19 8 14
+traindataset 206,75,21,46
+test 49 19 5 14
+fold  1  AUC improved at epoch  19 ;	best_auc: 0.8193041526374859
+traindataset 205,74,22,47
+test 49 19 5 14
+fold  1  AUC improved at epoch  20 ;	best_auc: 0.8249158249158248
+traindataset 207,73,20,48
+test 47 21 7 12
+fold  1  AUC improved at epoch  21 ;	best_auc: 0.8282828282828283
+traindataset 204,76,23,45
+test 48 19 6 14
+fold  1  AUC improved at epoch  22 ;	best_auc: 0.8288439955106621
+traindataset 206,75,21,46
+test 43 21 11 12
+Epoch 00023: reducing learning rate of group 0 to 8.0000e-05.
+fold  1  AUC improved at epoch  23 ;	best_auc: 0.8310886644219977
+traindataset 207,81,20,40
+test 42 22 12 11
+traindataset 213,78,14,43
+test 41 22 13 11
+traindataset 203,83,24,38
+test 45 21 9 12
+fold  1  AUC improved at epoch  26 ;	best_auc: 0.8417508417508417
+traindataset 209,79,18,42
+test 46 22 8 11
+fold  1  AUC improved at epoch  27 ;	best_auc: 0.8445566778900111
+traindataset 212,84,15,37
+test 45 25 9 8
+fold  1  AUC improved at epoch  28 ;	best_auc: 0.8546576879910213
+traindataset 212,81,15,40
+test 41 28 13 5
+traindataset 210,83,17,38
+test 46 26 8 7
+fold  1  AUC improved at epoch  30 ;	best_auc: 0.8585858585858586
+traindataset 206,86,21,35
+test 48 23 6 10
+traindataset 204,96,23,25
+test 49 18 5 15
+traindataset 208,95,19,26
+test 48 20 6 13
+traindataset 213,96,14,25
+test 45 25 9 8
+traindataset 213,98,14,23
+test 45 24 9 9
+traindataset 204,97,23,24
+test 47 22 7 11
+traindataset 206,98,21,23
+test 47 22 7 11
+traindataset 209,96,18,25
+test 47 23 7 10
+traindataset 212,98,15,23
+test 47 25 7 8
+fold  1  AUC improved at epoch  39 ;	best_auc: 0.8636363636363636
+traindataset 213,101,14,20
+test 46 24 8 9
+traindataset 210,100,17,21
+test 46 24 8 9
+traindataset 210,100,17,21
+test 41 25 13 8
+traindataset 216,103,11,18
+test 44 23 10 10
+traindataset 210,100,17,21
+test 43 24 11 9
+Epoch 00044: reducing learning rate of group 0 to 6.4000e-05.
+traindataset 215,104,12,17
+test 45 24 9 9
+traindataset 213,105,14,16
+test 44 24 10 9
+traindataset 213,108,14,13
+test 45 23 9 10
+traindataset 211,104,16,17
+test 46 24 8 9
+traindataset 211,110,16,11
+test 46 23 8 10
+traindataset 216,106,11,15
+test 45 24 9 9
+traindataset 214,106,13,15
+test 41 25 13 8
+traindataset 216,111,11,10
+test 42 24 12 9
+traindataset 216,107,11,14
+test 40 26 14 7
+traindataset 215,107,12,14
+test 40 26 14 7
+traindataset 216,109,11,12
+test 41 25 13 8
+traindataset 216,109,11,12
+test 45 24 9 9
+traindataset 215,111,12,10
+test 45 23 9 10
+traindataset 214,109,13,12
+test 46 22 8 11
+traindataset 216,108,11,13
+test 39 26 15 7
+traindataset 216,107,11,14
+test 38 26 16 7
+traindataset 216,108,11,13
+test 39 26 15 7
+traindataset 219,115,8,6
+test 40 26 14 7
+traindataset 215,112,12,9
+test 43 23 11 10
+traindataset 215,110,12,11
+test 45 23 9 10
+traindataset 211,108,16,13
+test 45 23 9 10
+Epoch 00065: reducing learning rate of group 0 to 5.1200e-05.
+traindataset 218,113,9,8
+test 42 24 12 9
+traindataset 216,111,11,10
+test 41 24 13 9
+traindataset 218,112,9,9
+test 39 25 15 8
+traindataset 216,112,11,9
+test 44 23 10 10
+Train DataFrame has 348 rows.
+Test DataFrame has 87 rows.
+Start raining.
+traindataset 194,12,30,112
+test 57 0 0 30
+fold  2  AUC improved at epoch  1 ;	best_auc: 0.6286549707602339
+traindataset 224,0,0,124
+test 57 0 0 30
+fold  2  AUC improved at epoch  2 ;	best_auc: 0.6953216374269006
+traindataset 224,0,0,124
+test 57 0 0 30
+fold  2  AUC improved at epoch  3 ;	best_auc: 0.7222222222222222
+traindataset 224,0,0,124
+test 57 0 0 30
+fold  2  AUC improved at epoch  4 ;	best_auc: 0.7362573099415204
+traindataset 224,0,0,124
+test 57 0 0 30
+fold  2  AUC improved at epoch  5 ;	best_auc: 0.7415204678362572
+traindataset 224,0,0,124
+test 57 0 0 30
+fold  2  AUC improved at epoch  6 ;	best_auc: 0.7497076023391813
+traindataset 224,0,0,124
+test 57 0 0 30
+fold  2  AUC improved at epoch  7 ;	best_auc: 0.7538011695906432
+traindataset 224,0,0,124
+test 57 0 0 30
+fold  2  AUC improved at epoch  8 ;	best_auc: 0.7690058479532164
+traindataset 224,0,0,124
+test 57 0 0 30
+fold  2  AUC improved at epoch  9 ;	best_auc: 0.8023391812865497
+traindataset 223,20,1,104
+test 55 16 2 14
+fold  2  AUC improved at epoch  10 ;	best_auc: 0.8228070175438595
+traindataset 203,74,21,50
+test 49 19 8 11
+fold  2  AUC improved at epoch  11 ;	best_auc: 0.8239766081871345
+traindataset 187,82,37,42
+test 49 19 8 11
+traindataset 197,74,27,50
+test 51 19 6 11
+fold  2  AUC improved at epoch  13 ;	best_auc: 0.8415204678362573
+traindataset 199,78,25,46
+test 51 18 6 12
+traindataset 202,76,22,48
+test 51 18 6 12
+fold  2  AUC improved at epoch  15 ;	best_auc: 0.8432748538011696
+traindataset 202,76,22,48
+test 53 18 4 12
+fold  2  AUC improved at epoch  16 ;	best_auc: 0.8456140350877193
+traindataset 204,77,20,47
+test 51 18 6 12
+traindataset 202,80,22,44
+test 53 18 4 12
+fold  2  AUC improved at epoch  18 ;	best_auc: 0.8461988304093566
+traindataset 204,78,20,46
+test 50 18 7 12
+fold  2  AUC improved at epoch  19 ;	best_auc: 0.847953216374269
+traindataset 200,79,24,45
+test 53 18 4 12
+fold  2  AUC improved at epoch  20 ;	best_auc: 0.8508771929824561
+traindataset 204,77,20,47
+test 53 18 4 12
+fold  2  AUC improved at epoch  21 ;	best_auc: 0.8514619883040936
+traindataset 205,72,19,52
+test 53 18 4 12
+Epoch 00022: reducing learning rate of group 0 to 8.0000e-05.
+fold  2  AUC improved at epoch  22 ;	best_auc: 0.8538011695906432
+traindataset 201,79,23,45
+test 55 16 2 14
+fold  2  AUC improved at epoch  23 ;	best_auc: 0.860233918128655
+traindataset 209,73,15,51
+test 54 18 3 12
+traindataset 202,77,22,47
+test 52 18 5 12
+traindataset 205,79,19,45
+test 54 18 3 12
+traindataset 205,75,19,49
+test 54 18 3 12
+traindataset 207,76,17,48
+test 53 18 4 12
+traindataset 202,77,22,47
+test 52 18 5 12
+traindataset 206,77,18,47
+test 51 18 6 12
+traindataset 203,79,21,45
+test 54 17 3 13
+traindataset 207,79,17,45
+test 52 21 5 9
+traindataset 207,77,17,47
+test 52 19 5 11
+traindataset 207,77,17,47
+test 51 20 6 10
+traindataset 204,80,20,44
+test 54 16 3 14
+traindataset 208,75,16,49
+test 52 20 5 10
+traindataset 208,79,16,45
+test 52 19 5 11
+traindataset 211,82,13,42
+test 54 16 3 14
+traindataset 210,77,14,47
+test 53 17 4 13
+traindataset 212,78,12,46
+test 52 20 5 10
+traindataset 212,83,12,41
+test 51 22 6 8
+traindataset 204,85,20,39
+test 51 22 6 8
+traindataset 209,87,15,37
+test 52 17 5 13
+Epoch 00043: reducing learning rate of group 0 to 6.4000e-05.
+traindataset 206,90,18,34
+test 52 20 5 10
+traindataset 205,90,19,34
+test 51 22 6 8
+traindataset 209,92,15,32
+test 50 23 7 7
+traindataset 206,98,18,26
+test 51 22 6 8
+traindataset 211,96,13,28
+test 51 22 6 8
+fold  2  AUC improved at epoch  48 ;	best_auc: 0.8643274853801169
+/HARD-DATA/WY/anaconda3/envs/dta/lib/python3.9/site-packages/dgl/heterograph.py:72: DGLWarning: Recommend creating graphs by `dgl.graph(data)` instead of `dgl.DGLGraph(data)`.
+  dgl_warning('Recommend creating graphs by `dgl.graph(data)`'
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+traindataset 206,96,18,28
+test 50 23 7 7
+traindataset 208,104,16,20
+test 51 19 6 11
+traindataset 203,99,21,25
+test 51 23 6 7
+fold  2  AUC improved at epoch  51 ;	best_auc: 0.8695906432748537
+traindataset 205,98,19,26
+test 51 22 6 8
+traindataset 208,99,16,25
+test 51 22 6 8
+traindataset 204,102,20,22
+test 52 20 5 10
+traindataset 208,101,16,23
+test 51 22 6 8
+traindataset 211,103,13,21
+test 49 24 8 6
+traindataset 206,101,18,23
+test 50 22 7 8
+traindataset 204,106,20,18
+test 52 22 5 8
+fold  2  AUC improved at epoch  58 ;	best_auc: 0.8789473684210526
+traindataset 207,104,17,20
+test 52 22 5 8
+traindataset 210,103,14,21
+test 52 22 5 8
+traindataset 213,107,11,17
+test 52 22 5 8
+traindataset 211,105,13,19
+test 52 22 5 8
+traindataset 211,105,13,19
+test 52 22 5 8
+traindataset 206,108,18,16
+test 52 22 5 8
+Epoch 00064: reducing learning rate of group 0 to 5.1200e-05.
+traindataset 212,108,12,16
+test 52 22 5 8
+traindataset 212,105,12,19
+test 52 22 5 8
+traindataset 212,106,12,18
+test 52 22 5 8
+traindataset 212,107,12,17
+test 52 22 5 8
+traindataset 214,108,10,16
+test 51 22 6 8
+traindataset 211,107,13,17
+test 52 22 5 8
+traindataset 210,106,14,18
+test 51 22 6 8
+traindataset 212,106,12,18
+test 51 22 6 8
+traindataset 207,107,17,17
+test 52 22 5 8
+traindataset 216,103,8,21
+test 52 23 5 7
+traindataset 208,105,16,19
+test 52 22 5 8
+traindataset 210,104,14,20
+test 52 22 5 8
+traindataset 211,110,13,14
+test 52 21 5 9
+traindataset 213,109,11,15
+test 52 22 5 8
+traindataset 212,105,12,19
+test 52 22 5 8
+traindataset 215,110,9,14
+test 52 22 5 8
+traindataset 212,104,12,20
+test 52 22 5 8
+traindataset 213,110,11,14
+test 52 22 5 8
+traindataset 214,105,10,19
+test 52 23 5 7
+traindataset 212,108,12,16
+test 52 22 5 8
+traindataset 210,108,14,16
+test 52 22 5 8
+Epoch 00085: reducing learning rate of group 0 to 4.0960e-05.
+traindataset 214,106,10,18
+test 52 23 5 7
+traindataset 214,107,10,17
+test 52 22 5 8
+traindataset 211,111,13,13
+test 52 23 5 7
+Train DataFrame has 348 rows.
+Test DataFrame has 87 rows.
+Start raining.
+traindataset 229,3,0,116
+test 52 0 0 35
+fold  3  AUC improved at epoch  1 ;	best_auc: 0.6472527472527473
+traindataset 229,0,0,119
+test 52 0 0 35
+fold  3  AUC improved at epoch  2 ;	best_auc: 0.6837912087912088
+traindataset 229,0,0,119
+test 52 0 0 35
+traindataset 229,0,0,119
+test 52 0 0 35
+traindataset 229,0,0,119
+test 52 0 0 35
+traindataset 229,0,0,119
+test 52 0 0 35
+traindataset 229,0,0,119
+test 52 0 0 35
+fold  3  AUC improved at epoch  7 ;	best_auc: 0.7131868131868132
+traindataset 229,1,0,118
+test 52 1 0 34
+traindataset 224,46,5,73
+test 49 18 3 17
+traindataset 203,75,26,44
+test 47 20 5 15
+fold  3  AUC improved at epoch  10 ;	best_auc: 0.7148351648351648
+traindataset 193,79,36,40
+test 48 18 4 17
+fold  3  AUC improved at epoch  11 ;	best_auc: 0.7156593406593407
+traindataset 206,76,23,43
+test 48 18 4 17
+fold  3  AUC improved at epoch  12 ;	best_auc: 0.7236263736263736
+traindataset 208,73,21,46
+test 49 18 3 17
+fold  3  AUC improved at epoch  13 ;	best_auc: 0.739010989010989
+traindataset 203,77,26,42
+test 49 18 3 17
+fold  3  AUC improved at epoch  14 ;	best_auc: 0.7478021978021977
+traindataset 200,79,29,40
+test 48 18 4 17
+traindataset 209,73,20,46
+test 48 18 4 17
+traindataset 204,77,25,42
+test 48 18 4 17
+fold  3  AUC improved at epoch  17 ;	best_auc: 0.7478021978021978
+traindataset 211,74,18,45
+test 49 18 3 17
+fold  3  AUC improved at epoch  18 ;	best_auc: 0.7489010989010988
+traindataset 206,75,23,44
+test 49 18 3 17
+fold  3  AUC improved at epoch  19 ;	best_auc: 0.7543956043956044
+traindataset 211,75,18,44
+test 49 18 3 17
+fold  3  AUC improved at epoch  20 ;	best_auc: 0.7615384615384615
+traindataset 208,76,21,43
+test 48 18 4 17
+fold  3  AUC improved at epoch  21 ;	best_auc: 0.7675824175824175
+traindataset 209,77,20,42
+test 48 20 4 15
+Epoch 00022: reducing learning rate of group 0 to 8.0000e-05.
+fold  3  AUC improved at epoch  22 ;	best_auc: 0.7708791208791209
+traindataset 207,79,22,40
+test 48 17 4 18
+fold  3  AUC improved at epoch  23 ;	best_auc: 0.7736263736263737
+traindataset 212,78,17,41
+test 48 17 4 18
+fold  3  AUC improved at epoch  24 ;	best_auc: 0.7785714285714286
+traindataset 215,77,14,42
+test 48 19 4 16
+fold  3  AUC improved at epoch  25 ;	best_auc: 0.7873626373626373
+traindataset 216,78,13,41
+test 49 17 3 18
+fold  3  AUC improved at epoch  26 ;	best_auc: 0.7895604395604396
+traindataset 216,77,13,42
+test 48 19 4 16
+fold  3  AUC improved at epoch  27 ;	best_auc: 0.7972527472527473
+traindataset 216,80,13,39
+test 48 17 4 18
+traindataset 216,77,13,42
+test 48 19 4 16
+fold  3  AUC improved at epoch  29 ;	best_auc: 0.8076923076923077
+traindataset 216,80,13,39
+test 48 19 4 16
+traindataset 216,78,13,41
+test 48 19 4 16
+traindataset 214,82,15,37
+test 49 17 3 18
+traindataset 217,79,12,40
+test 48 19 4 16
+fold  3  AUC improved at epoch  33 ;	best_auc: 0.8214285714285715
+traindataset 214,79,15,40
+test 49 17 3 18
+fold  3  AUC improved at epoch  34 ;	best_auc: 0.8219780219780219
+traindataset 216,78,13,41
+test 48 19 4 16
+fold  3  AUC improved at epoch  35 ;	best_auc: 0.8296703296703296
+traindataset 217,81,12,38
+test 48 19 4 16
+fold  3  AUC improved at epoch  36 ;	best_auc: 0.8346153846153846
+traindataset 217,82,12,37
+test 48 19 4 16
+traindataset 212,84,17,35
+test 49 19 3 16
+traindataset 212,87,17,32
+test 49 19 3 16
+fold  3  AUC improved at epoch  39 ;	best_auc: 0.8461538461538461
+traindataset 216,86,13,33
+test 48 19 4 16
+traindataset 218,84,11,35
+test 49 19 3 16
+traindataset 218,83,11,36
+test 48 20 4 15
+traindataset 216,86,13,33
+test 49 20 3 15
+Epoch 00043: reducing learning rate of group 0 to 6.4000e-05.
+traindataset 215,88,14,31
+test 48 23 4 12
+traindataset 217,91,12,28
+test 48 23 4 12
+traindataset 218,88,11,31
+test 47 23 5 12
+fold  3  AUC improved at epoch  46 ;	best_auc: 0.8513736263736265
+traindataset 221,90,8,29
+test 48 23 4 12
+traindataset 213,90,16,29
+test 48 23 4 12
+traindataset 217,92,12,27
+test 47 23 5 12
+traindataset 219,93,10,26
+test 47 23 5 12
+traindataset 220,93,9,26
+test 47 23 5 12
+traindataset 212,91,17,28
+test 47 23 5 12
+traindataset 215,96,14,23
+test 48 23 4 12
+fold  3  AUC improved at epoch  53 ;	best_auc: 0.8571428571428571
+traindataset 219,96,10,23
+test 46 24 6 11
+traindataset 217,97,12,22
+test 46 23 6 12
+fold  3  AUC improved at epoch  55 ;	best_auc: 0.862087912087912
+traindataset 217,96,12,23
+test 46 24 6 11
+traindataset 217,100,12,19
+test 46 25 6 10
+traindataset 215,100,14,19
+test 48 24 4 11
+traindataset 215,101,14,18
+test 46 24 6 11
+traindataset 217,95,12,24
+test 46 25 6 10
+traindataset 220,99,9,20
+test 43 26 9 9
+traindataset 217,101,12,18
+test 44 24 8 11
+traindataset 216,100,13,19
+test 44 24 8 11
+traindataset 219,98,10,21
+test 43 24 9 11
+Epoch 00064: reducing learning rate of group 0 to 5.1200e-05.
+traindataset 217,101,12,18
+test 43 24 9 11
+traindataset 216,102,13,17
+test 43 24 9 11
+traindataset 218,103,11,16
+test 43 24 9 11
+traindataset 216,100,13,19
+test 43 24 9 11
+traindataset 215,100,14,19
+test 42 25 10 10
+traindataset 216,102,13,17
+test 43 25 9 10
+traindataset 218,102,11,17
+test 43 25 9 10
+traindataset 217,101,12,18
+test 43 27 9 8
+traindataset 217,100,12,19
+test 43 25 9 10
+traindataset 217,104,12,15
+test 46 25 6 10
+traindataset 216,102,13,17
+test 42 27 10 8
+traindataset 218,101,11,18
+test 43 26 9 9
+traindataset 214,104,15,15
+test 44 25 8 10
+traindataset 217,104,12,15
+test 43 25 9 10
+traindataset 219,103,10,16
+test 43 26 9 9
+traindataset 217,105,12,14
+test 43 26 9 9
+traindataset 218,105,11,14
+test 45 27 7 8
+traindataset 217,105,12,14
+test 44 26 8 9
+fold  3  AUC improved at epoch  82 ;	best_auc: 0.8653846153846154
+traindataset 218,109,11,10
+test 44 26 8 9
+traindataset 219,106,10,13
+test 43 26 9 9
+traindataset 216,106,13,13
+test 43 26 9 9
+Epoch 00085: reducing learning rate of group 0 to 4.0960e-05.
+traindataset 217,105,12,14
+test 45 25 7 10
+traindataset 217,106,12,13
+test 45 23 7 12
+traindataset 217,103,12,16
+test 44 25 8 10
+traindataset 216,107,13,12
+test 44 25 8 10
+traindataset 219,103,10,16
+test 45 24 7 11
+traindataset 217,104,12,15
+test 45 25 7 10
+traindataset 217,106,12,13
+test 43 27 9 8
+traindataset 218,107,11,12
+test 45 27 7 8
+traindataset 215,107,14,12
+test 45 26 7 9
+traindataset 219,102,10,17
+test 45 25 7 10
+traindataset 217,108,12,11
+/HARD-DATA/WY/anaconda3/envs/dta/lib/python3.9/site-packages/dgl/heterograph.py:72: DGLWarning: Recommend creating graphs by `dgl.graph(data)` instead of `dgl.DGLGraph(data)`.
+  dgl_warning('Recommend creating graphs by `dgl.graph(data)`'
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/anaconda3/envs/dta/lib/python3.9/site-packages/dgl/heterograph.py:72: DGLWarning: Recommend creating graphs by `dgl.graph(data)` instead of `dgl.DGLGraph(data)`.
+  dgl_warning('Recommend creating graphs by `dgl.graph(data)`'
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+test 45 26 7 9
+traindataset 221,105,8,14
+test 43 28 9 7
+traindataset 218,107,11,12
+test 44 26 8 9
+traindataset 215,108,14,11
+test 42 27 10 8
+traindataset 220,109,9,10
+test 43 26 9 9
+traindataset 219,107,10,12
+test 44 26 8 9
+traindataset 216,109,13,10
+test 43 26 9 9
+traindataset 220,110,9,9
+test 44 25 8 10
+traindataset 219,104,10,15
+test 45 26 7 9
+traindataset 214,107,15,12
+test 45 25 7 10
+traindataset 219,107,10,12
+test 44 26 8 9
+Epoch 00106: reducing learning rate of group 0 to 3.2768e-05.
+traindataset 216,104,13,15
+test 44 25 8 10
+traindataset 218,108,11,11
+test 41 27 11 8
+traindataset 219,108,10,11
+test 45 26 7 9
+traindataset 219,106,10,13
+test 42 28 10 7
+traindataset 217,109,12,10
+test 43 26 9 9
+traindataset 219,110,10,9
+test 44 26 8 9
+Train DataFrame has 348 rows.
+Test DataFrame has 87 rows.
+Start raining.
+traindataset 200,15,22,111
+test 59 0 0 28
+fold  4  AUC improved at epoch  1 ;	best_auc: 0.7076271186440678
+traindataset 222,0,0,126
+test 59 0 0 28
+fold  4  AUC improved at epoch  2 ;	best_auc: 0.851089588377724
+traindataset 222,0,0,126
+test 59 0 0 28
+fold  4  AUC improved at epoch  3 ;	best_auc: 0.8692493946731235
+traindataset 222,0,0,126
+test 59 0 0 28
+fold  4  AUC improved at epoch  4 ;	best_auc: 0.8753026634382566
+traindataset 222,0,0,126
+test 59 0 0 28
+fold  4  AUC improved at epoch  5 ;	best_auc: 0.8753026634382567
+traindataset 222,0,0,126
+test 59 0 0 28
+fold  4  AUC improved at epoch  6 ;	best_auc: 0.8783292978208233
+traindataset 222,0,0,126
+test 59 0 0 28
+fold  4  AUC improved at epoch  7 ;	best_auc: 0.8855932203389831
+traindataset 222,0,0,126
+test 59 0 0 28
+fold  4  AUC improved at epoch  8 ;	best_auc: 0.8934624697336562
+traindataset 216,24,6,102
+test 52 21 7 7
+traindataset 197,79,25,47
+test 49 23 10 5
+traindataset 187,83,35,43
+test 46 23 13 5
+traindataset 186,82,36,44
+test 54 21 5 7
+traindataset 197,77,25,49
+test 49 23 10 5
+traindataset 203,74,19,52
+test 50 23 9 5
+traindataset 194,83,28,43
+test 55 20 4 8
+fold  4  AUC improved at epoch  15 ;	best_auc: 0.8976997578692494
+traindataset 203,74,19,52
+test 51 23 8 5
+traindataset 201,76,21,50
+test 46 23 13 5
+traindataset 193,80,29,46
+test 56 20 3 8
+traindataset 196,78,26,48
+test 49 22 10 6
+traindataset 198,76,24,50
+test 52 20 7 8
+traindataset 197,79,25,47
+test 54 20 5 8
+traindataset 202,78,20,48
+test 54 20 5 8
+Epoch 00022: reducing learning rate of group 0 to 8.0000e-05.
+traindataset 204,79,18,47
+test 54 21 5 7
+traindataset 204,79,18,47
+test 54 21 5 7
+traindataset 204,80,18,46
+test 56 19 3 9
+traindataset 202,82,20,44
+test 58 18 1 10
+traindataset 202,81,20,45
+test 57 18 2 10
+traindataset 207,76,15,50
+test 54 20 5 8
+traindataset 207,78,15,48
+test 56 19 3 9
+traindataset 208,80,14,46
+test 55 19 4 9
+traindataset 207,78,15,48
+test 54 19 5 9
+traindataset 208,82,14,44
+test 56 19 3 9
+traindataset 209,80,13,46
+test 54 19 5 9
+traindataset 207,80,15,46
+test 55 19 4 9
+traindataset 208,83,14,43
+test 54 19 5 9
+traindataset 208,82,14,44
+test 57 19 2 9
+traindataset 207,83,15,43
+test 55 19 4 9
+traindataset 210,85,12,41
+test 55 19 4 9
+traindataset 207,85,15,41
+test 55 18 4 10
+traindataset 206,84,16,42
+test 56 18 3 10
+traindataset 209,82,13,44
+test 56 18 3 10
+traindataset 207,82,15,44
+test 55 20 4 8
+traindataset 200,87,22,39
+test 58 19 1 9
+Epoch 00043: reducing learning rate of group 0 to 6.4000e-05.
+traindataset 205,90,17,36
+test 56 19 3 9
+traindataset 206,92,16,34
+test 53 22 6 6
+Train DataFrame has 348 rows.
+Test DataFrame has 87 rows.
+Start raining.
+traindataset 222,0,0,126
+test 59 0 0 28
+fold  5  AUC improved at epoch  1 ;	best_auc: 0.715496368038741
+traindataset 222,0,0,126
+test 59 0 0 28
+fold  5  AUC improved at epoch  2 ;	best_auc: 0.7548426150121066
+traindataset 222,0,0,126
+test 59 0 0 28
+traindataset 222,0,0,126
+test 59 0 0 28
+traindataset 222,0,0,126
+test 59 0 0 28
+fold  5  AUC improved at epoch  5 ;	best_auc: 0.7566585956416465
+traindataset 222,0,0,126
+test 59 0 0 28
+fold  5  AUC improved at epoch  6 ;	best_auc: 0.7796610169491526
+traindataset 222,0,0,126
+test 59 0 0 28
+fold  5  AUC improved at epoch  7 ;	best_auc: 0.8220338983050848
+traindataset 222,1,0,125
+test 59 0 0 28
+traindataset 213,50,9,76
+test 54 15 5 13
+traindataset 199,80,23,46
+test 47 21 12 7
+traindataset 181,90,41,36
+test 56 15 3 13
+traindataset 194,80,28,46
+test 49 21 10 7
+traindataset 202,79,20,47
+test 52 18 7 10
+fold  5  AUC improved at epoch  13 ;	best_auc: 0.8232445520581114
+traindataset 195,84,27,42
+test 51 18 8 10
+fold  5  AUC improved at epoch  14 ;	best_auc: 0.8317191283292978
+traindataset 195,78,27,48
+test 51 19 8 9
+fold  5  AUC improved at epoch  15 ;	best_auc: 0.8347457627118645
+traindataset 202,74,20,52
+test 55 15 4 13
+fold  5  AUC improved at epoch  16 ;	best_auc: 0.8371670702179177
+traindataset 202,77,20,49
+test 51 18 8 10
+traindataset 196,80,26,46
+test 51 20 8 8
+fold  5  AUC improved at epoch  18 ;	best_auc: 0.8411016949152542
+traindataset 195,81,27,45
+test 52 19 7 9
+traindataset 207,74,15,52
+test 56 15 3 13
+traindataset 203,76,19,50
+test 52 18 7 10
+traindataset 204,75,18,51
+test 50 20 9 8
+Epoch 00022: reducing learning rate of group 0 to 8.0000e-05.
+fold  5  AUC improved at epoch  22 ;	best_auc: 0.8438256658595642
+traindataset 201,81,21,45
+test 48 20 11 8
+fold  5  AUC improved at epoch  23 ;	best_auc: 0.8456416464891041
+traindataset 203,82,19,44
+test 50 20 9 8
+fold  5  AUC improved at epoch  24 ;	best_auc: 0.8486682808716707
+traindataset 201,87,21,39
+test 54 19 5 9
+fold  5  AUC improved at epoch  25 ;	best_auc: 0.8547215496368039
+traindataset 200,84,22,42
+test 50 20 9 8
+traindataset 209,72,13,54
+test 51 20 8 8
+fold  5  AUC improved at epoch  27 ;	best_auc: 0.8559322033898306
+traindataset 201,85,21,41
+test 50 20 9 8
+fold  5  AUC improved at epoch  28 ;	best_auc: 0.8577481840193705
+traindataset 207,74,15,52
+test 53 20 6 8
+fold  5  AUC improved at epoch  29 ;	best_auc: 0.862590799031477
+traindataset 205,79,17,47
+test 51 20 8 8
+traindataset 205,78,17,48
+test 53 20 6 8
+traindataset 205,83,17,43
+test 52 20 7 8
+traindataset 204,79,18,47
+test 53 18 6 10
+traindataset 207,76,15,50
+test 53 20 6 8
+traindataset 205,83,17,43
+test 53 20 6 8
+traindataset 206,78,16,48
+test 51 19 8 9
+traindataset 207,79,15,47
+test 53 20 6 8
+traindataset 206,79,16,47
+test 53 19 6 9
+traindataset 205,81,17,45
+test 51 19 8 9
+traindataset 206,79,16,47
+test 51 20 8 8
+traindataset 209,82,13,44
+test 53 20 6 8
+traindataset 205,86,17,40
+test 52 20 7 8
+fold  5  AUC improved at epoch  42 ;	best_auc: 0.8638014527845036
+traindataset 208,83,14,43
+test 51 20 8 8
+Epoch 00043: reducing learning rate of group 0 to 6.4000e-05.
+traindataset 207,84,15,42
+test 54 19 5 9
+fold  5  AUC improved at epoch  44 ;	best_auc: 0.8734866828087167
+traindataset 203,87,19,39
+test 50 20 9 8
+fold  5  AUC improved at epoch  45 ;	best_auc: 0.8734866828087168
+traindataset 210,85,12,41
+test 53 17 6 11
+traindataset 203,89,19,37
+test 52 20 7 8
+fold  5  AUC improved at epoch  47 ;	best_auc: 0.8795399515738499
+traindataset 208,88,14,38
+test 52 20 7 8
+traindataset 205,94,17,32
+test 51 20 8 8
+fold  5  AUC improved at epoch  49 ;	best_auc: 0.8825665859564165
+traindataset 203,100,19,26
+test 53 19 6 9
+fold  5  AUC improved at epoch  50 ;	best_auc: 0.887409200968523
+traindataset 203,95,19,31
+test 52 20 7 8
+fold  5  AUC improved at epoch  51 ;	best_auc: 0.8910411622276029
+traindataset 205,95,17,31
+test 54 20 5 8
+fold  5  AUC improved at epoch  52 ;	best_auc: 0.9031476997578692
+traindataset 203,96,19,30
+test 54 20 5 8
+fold  5  AUC improved at epoch  53 ;	best_auc: 0.9134382566585957
+traindataset 205,96,17,30
+test 54 23 5 5
+traindataset 202,98,20,28
+test 54 23 5 5
+traindataset 201,101,21,25
+test 54 21 5 7
+traindataset 200,99,22,27
+test 54 23 5 5
+fold  5  AUC improved at epoch  57 ;	best_auc: 0.9188861985472155
+traindataset 204,98,18,28
+test 54 18 5 10
+traindataset 203,96,19,30
+test 49 23 10 5
+traindataset 202,102,20,24
+test 52 23 7 5
+traindataset 203,101,19,25
+test 49 23 10 5
+traindataset 203,104,19,22
+test 55 20 4 8
+traindataset 199,102,23,24
+test 53 18 6 10
+traindataset 204,105,18,21
+test 49 21 10 7
+Epoch 00064: reducing learning rate of group 0 to 5.1200e-05.
+traindataset 203,101,19,25
+test 49 23 10 5
+traindataset 202,103,20,23
+test 50 20 9 8
+traindataset 204,105,18,21
+test 47 23 12 5
+traindataset 203,103,19,23
+test 50 21 9 7
+traindataset 203,107,19,19
+test 51 21 8 7
+traindataset 204,102,18,24
+test 50 23 9 5
+traindataset 202,107,20,19
+test 51 23 8 5
+traindataset 207,108,15,18
+test 53 21 6 7
+traindataset 206,108,16,18
+test 49 24 10 4
+traindataset 201,107,21,19
+test 52 23 7 5
+traindataset 208,107,14,19
+test 51 22 8 6
+traindataset 205,110,17,16
+test 50 23 9 5
+traindataset 203,109,19,17
+test 53 20 6 8
+traindataset 207,109,15,17
+test 52 22 7 6
+traindataset 205,104,17,22
+test 45 26 14 2
+traindataset 206,109,16,17
+test 51 22 8 6
+traindataset 205,111,17,15
+test 52 23 7 5
+traindataset 205,111,17,15
+test 52 23 7 5
+traindataset 208,115,14,11
+test 52 20 7 8
+traindataset 209,111,13,15
+test 51 24 8 4
+traindataset 207,113,15,13
+test 53 21 6 7
+Epoch 00085: reducing learning rate of group 0 to 4.0960e-05.
+traindataset 208,115,14,11
+test 51 24 8 4
+traindataset 205,112,17,14
+test 52 23 7 5
+/HARD-DATA/WY/anaconda3/envs/dta/lib/python3.9/site-packages/dgl/heterograph.py:72: DGLWarning: Recommend creating graphs by `dgl.graph(data)` instead of `dgl.DGLGraph(data)`.
+  dgl_warning('Recommend creating graphs by `dgl.graph(data)`'
+/HARD-DATA/WY/anaconda3/envs/dta/lib/python3.9/site-packages/dgl/backend/pytorch/tensor.py:352: UserWarning: TypedStorage is deprecated. It will be removed in the future and UntypedStorage will be the only storage class. This should only matter to you if you are using storages directly.  To access UntypedStorage directly, use tensor.untyped_storage() instead of tensor.storage()
+  assert input.numel() == input.storage().size(), "Cannot convert view " \
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/anaconda3/envs/dta/lib/python3.9/site-packages/dgl/heterograph.py:72: DGLWarning: Recommend creating graphs by `dgl.graph(data)` instead of `dgl.DGLGraph(data)`.
+  dgl_warning('Recommend creating graphs by `dgl.graph(data)`'
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+cuda:1
+TVdataset: 435
+Train DataFrame has 348 rows.
+Test DataFrame has 87 rows.
+Start raining.
+traindataset 174,27,53,94
+test 54 0 0 33
+fold  1  AUC improved at epoch  1 ;	best_auc: 0.6627384960718294
+traindataset 227,0,0,121
+test 54 0 0 33
+traindataset 227,0,0,121
+test 54 0 0 33
+traindataset 227,0,0,121
+test 54 0 0 33
+fold  1  AUC improved at epoch  4 ;	best_auc: 0.6705948372615039
+traindataset 227,0,0,121
+test 54 0 0 33
+fold  1  AUC improved at epoch  5 ;	best_auc: 0.6711560044893379
+traindataset 227,0,0,121
+test 54 0 0 33
+fold  1  AUC improved at epoch  6 ;	best_auc: 0.6840628507295174
+traindataset 227,0,0,121
+test 54 0 0 33
+fold  1  AUC improved at epoch  7 ;	best_auc: 0.72334455667789
+traindataset 227,0,0,121
+test 54 0 0 33
+fold  1  AUC improved at epoch  8 ;	best_auc: 0.7239057239057239
+traindataset 227,1,0,120
+test 54 2 0 31
+fold  1  AUC improved at epoch  9 ;	best_auc: 0.7850729517396184
+traindataset 218,42,9,79
+test 47 19 7 14
+traindataset 207,72,20,49
+test 42 21 12 12
+traindataset 201,77,26,44
+test 38 24 16 9
+traindataset 200,78,27,43
+test 46 20 8 13
+fold  1  AUC improved at epoch  13 ;	best_auc: 0.8092031425364759
+traindataset 204,76,23,45
+test 47 20 7 13
+traindataset 205,72,22,49
+test 47 20 7 13
+traindataset 208,69,19,52
+test 45 19 9 14
+fold  1  AUC improved at epoch  16 ;	best_auc: 0.8108866442199775
+traindataset 202,74,25,47
+test 47 20 7 13
+fold  1  AUC improved at epoch  17 ;	best_auc: 0.813692480359147
+traindataset 207,77,20,44
+test 48 20 6 13
+fold  1  AUC improved at epoch  18 ;	best_auc: 0.8181818181818181
+traindataset 205,78,22,43
+test 48 19 6 14
+fold  1  AUC improved at epoch  19 ;	best_auc: 0.8237934904601572
+traindataset 208,75,19,46
+test 39 20 15 13
+traindataset 213,80,14,41
+test 47 21 7 12
+fold  1  AUC improved at epoch  21 ;	best_auc: 0.8344556677890012
+traindataset 210,82,17,39
+test 41 20 13 13
+traindataset 205,83,22,38
+test 49 19 5 14
+Epoch 00023: reducing learning rate of group 0 to 8.0000e-05.
+fold  1  AUC improved at epoch  23 ;	best_auc: 0.8496071829405162
+traindataset 211,85,16,36
+test 41 20 13 13
+traindataset 210,84,17,37
+test 40 24 14 9
+traindataset 207,92,20,29
+test 46 20 8 13
+traindataset 211,91,16,30
+test 48 19 6 14
+traindataset 208,98,19,23
+test 47 21 7 12
+traindataset 208,96,19,25
+test 46 23 8 10
+fold  1  AUC improved at epoch  29 ;	best_auc: 0.8524130190796857
+traindataset 207,98,20,23
+test 45 22 9 11
+traindataset 207,94,20,27
+test 46 21 8 12
+traindataset 202,102,25,19
+test 48 20 6 13
+traindataset 211,96,16,25
+test 42 23 12 10
+traindataset 205,99,22,22
+test 44 21 10 12
+traindataset 210,102,17,19
+test 45 25 9 8
+fold  1  AUC improved at epoch  35 ;	best_auc: 0.8552188552188552
+traindataset 211,100,16,21
+test 45 22 9 11
+traindataset 216,102,11,19
+test 39 26 15 7
+traindataset 214,100,13,21
+test 42 25 12 8
+traindataset 211,104,16,17
+test 44 24 10 9
+traindataset 210,104,17,17
+test 45 19 9 14
+traindataset 209,108,18,13
+test 43 22 11 11
+traindataset 214,104,13,17
+test 38 25 16 8
+traindataset 213,107,14,14
+test 38 26 16 7
+traindataset 209,108,18,13
+test 42 23 12 10
+Epoch 00044: reducing learning rate of group 0 to 6.4000e-05.
+traindataset 211,109,16,12
+test 43 23 11 10
+traindataset 214,111,13,10
+test 44 23 10 10
+traindataset 214,106,13,15
+test 42 23 12 10
+traindataset 216,111,11,10
+test 39 26 15 7
+traindataset 212,108,15,13
+test 45 23 9 10
+traindataset 211,111,16,10
+test 45 23 9 10
+traindataset 215,110,12,11
+test 39 25 15 8
+traindataset 216,106,11,15
+test 42 23 12 10
+traindataset 213,110,14,11
+test 45 23 9 10
+traindataset 214,111,13,10
+test 41 23 13 10
+traindataset 219,111,8,10
+test 41 23 13 10
+traindataset 212,111,15,10
+test 44 23 10 10
+traindataset 214,109,13,12
+test 44 23 10 10
+traindataset 218,111,9,10
+test 42 23 12 10
+traindataset 215,113,12,8
+test 44 23 10 10
+traindataset 217,109,10,12
+test 41 22 13 11
+traindataset 213,110,14,11
+test 43 23 11 10
+traindataset 220,112,7,9
+test 43 23 11 10
+traindataset 215,114,12,7
+test 40 24 14 9
+traindataset 215,112,12,9
+test 44 23 10 10
+traindataset 214,110,13,11
+test 38 25 16 8
+Epoch 00065: reducing learning rate of group 0 to 5.1200e-05.
+Train DataFrame has 348 rows.
+Test DataFrame has 87 rows.
+Start raining.
+traindataset 221,2,3,122
+test 57 0 0 30
+fold  2  AUC improved at epoch  1 ;	best_auc: 0.647953216374269
+traindataset 224,0,0,124
+test 57 0 0 30
+fold  2  AUC improved at epoch  2 ;	best_auc: 0.7070175438596491
+traindataset 224,0,0,124
+test 57 0 0 30
+fold  2  AUC improved at epoch  3 ;	best_auc: 0.727485380116959
+traindataset 224,0,0,124
+test 57 0 0 30
+fold  2  AUC improved at epoch  4 ;	best_auc: 0.7614035087719297
+traindataset 224,0,0,124
+test 57 0 0 30
+traindataset 224,0,0,124
+test 57 0 0 30
+fold  2  AUC improved at epoch  6 ;	best_auc: 0.7777777777777778
+traindataset 224,0,0,124
+test 57 0 0 30
+fold  2  AUC improved at epoch  7 ;	best_auc: 0.7842105263157895
+traindataset 224,0,0,124
+test 57 0 0 30
+fold  2  AUC improved at epoch  8 ;	best_auc: 0.7988304093567251
+traindataset 224,0,0,124
+test 57 0 0 30
+fold  2  AUC improved at epoch  9 ;	best_auc: 0.8298245614035087
+traindataset 224,0,0,124
+test 57 1 0 29
+fold  2  AUC improved at epoch  10 ;	best_auc: 0.8309941520467836
+traindataset 222,23,2,101
+test 57 3 0 27
+traindataset 202,67,22,57
+test 46 22 11 8
+fold  2  AUC improved at epoch  12 ;	best_auc: 0.839766081871345
+traindataset 168,94,56,30
+test 49 19 8 11
+traindataset 202,66,22,58
+test 48 19 9 11
+traindataset 179,91,45,33
+test 42 24 15 6
+traindataset 189,78,35,46
+test 54 17 3 13
+traindataset 196,78,28,46
+test 46 21 11 9
+traindataset 189,81,35,43
+test 54 17 3 13
+fold  2  AUC improved at epoch  18 ;	best_auc: 0.8526315789473683
+traindataset 200,76,24,48
+test 47 20 10 10
+fold  2  AUC improved at epoch  19 ;	best_auc: 0.856140350877193
+traindataset 197,77,27,47
+test 51 18 6 12
+traindataset 200,76,24,48
+test 50 18 7 12
+traindataset 198,81,26,43
+test 52 18 5 12
+Epoch 00022: reducing learning rate of group 0 to 8.0000e-05.
+fold  2  AUC improved at epoch  22 ;	best_auc: 0.8578947368421052
+traindataset 197,79,27,45
+test 49 20 8 10
+traindataset 201,81,23,43
+test 51 17 6 13
+traindataset 200,83,24,41
+test 50 18 7 12
+traindataset 201,82,23,42
+test 51 17 6 13
+traindataset 203,88,21,36
+test 51 17 6 13
+traindataset 202,91,22,33
+test 51 16 6 14
+traindataset 204,85,20,39
+test 52 14 5 16
+traindataset 204,86,20,38
+test 52 15 5 15
+traindataset 208,92,16,32
+test 50 19 7 11
+traindataset 212,90,12,34
+test 52 15 5 15
+traindataset 207,91,17,33
+test 52 17 5 13
+traindataset 215,89,9,35
+test 50 18 7 12
+traindataset 213,91,11,33
+test 52 17 5 13
+traindataset 208,89,16,35
+test 51 15 6 15
+traindataset 214,86,10,38
+test 50 17 7 13
+traindataset 214,89,10,35
+test 51 18 6 12
+traindataset 212,93,12,31
+test 52 15 5 15
+traindataset 213,89,11,35
+test 52 15 5 15
+traindataset 216,92,8,32
+test 44 20 13 10
+traindataset 210,86,14,38
+test 51 18 6 12
+traindataset 216,90,8,34
+test 51 19 6 11
+Epoch 00043: reducing learning rate of group 0 to 6.4000e-05.
+traindataset 213,89,11,35
+test 50 17 7 13
+traindataset 217,92,7,32
+test 48 20 9 10
+traindataset 216,95,8,29
+test 50 19 7 11
+traindataset 214,95,10,29
+test 48 19 9 11
+traindataset 217,92,7,32
+test 49 20 8 10
+traindataset 210,93,14,31
+test 52 15 5 15
+traindataset 217,95,7,29
+test 48 19 9 11
+traindataset 214,96,10,28
+test 48 21 9 9
+traindataset 213,93,11,31
+test 50 20 7 10
+fold  2  AUC improved at epoch  52 ;	best_auc: 0.8608187134502925
+traindataset 213,101,11,23
+test 50 20 7 10
+fold  2  AUC improved at epoch  53 ;	best_auc: 0.8614035087719298
+traindataset 216,97,8,27
+test 49 22 8 8
+traindataset 218,98,6,26
+test 49 21 8 9
+traindataset 214,103,10,21
+test 50 21 7 9
+traindataset 214,100,10,24
+test 50 22 7 8
+traindataset 214,98,10,26
+test 50 22 7 8
+traindataset 216,99,8,25
+test 46 22 11 8
+traindataset 210,100,14,24
+test 50 22 7 8
+traindataset 212,104,12,20
+test 50 20 7 10
+traindataset 215,98,9,26
+test 47 22 10 8
+traindataset 216,104,8,20
+test 47 23 10 7
+traindataset 214,106,10,18
+test 46 22 11 8
+Epoch 00064: reducing learning rate of group 0 to 5.1200e-05.
+traindataset 215,101,9,23
+test 45 23 12 7
+traindataset 212,107,12,17
+test 46 22 11 8
+traindataset 210,104,14,20
+test 45 22 12 8
+traindataset 212,105,12,19
+test 46 22 11 8
+traindataset 215,102,9,22
+test 47 23 10 7
+/HARD-DATA/WY/anaconda3/envs/dta/lib/python3.9/site-packages/dgl/heterograph.py:72: DGLWarning: Recommend creating graphs by `dgl.graph(data)` instead of `dgl.DGLGraph(data)`.
+  dgl_warning('Recommend creating graphs by `dgl.graph(data)`'
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+traindataset 210,106,14,18
+test 48 22 9 8
+traindataset 214,108,10,16
+test 44 23 13 7
+traindataset 213,105,11,19
+test 47 22 10 8
+traindataset 212,113,12,11
+test 46 23 11 7
+fold  2  AUC improved at epoch  73 ;	best_auc: 0.8654970760233918
+traindataset 212,107,12,17
+test 43 23 14 7
+traindataset 211,108,13,16
+test 44 23 13 7
+traindataset 210,106,14,18
+test 45 23 12 7
+traindataset 211,111,13,13
+test 44 23 13 7
+traindataset 211,108,13,16
+test 42 24 15 6
+traindataset 208,114,16,10
+test 46 22 11 8
+fold  2  AUC improved at epoch  79 ;	best_auc: 0.868421052631579
+traindataset 212,108,12,16
+test 44 24 13 6
+traindataset 212,109,12,15
+test 46 24 11 6
+fold  2  AUC improved at epoch  81 ;	best_auc: 0.8701754385964913
+traindataset 214,111,10,13
+test 45 25 12 5
+traindataset 214,110,10,14
+test 46 23 11 7
+traindataset 216,112,8,12
+test 45 24 12 6
+traindataset 214,113,10,11
+test 46 23 11 7
+Epoch 00085: reducing learning rate of group 0 to 4.0960e-05.
+traindataset 208,109,16,15
+test 47 23 10 7
+traindataset 217,114,7,10
+test 45 23 12 7
+traindataset 213,111,11,13
+test 46 23 11 7
+traindataset 214,112,10,12
+test 47 23 10 7
+traindataset 216,112,8,12
+test 47 23 10 7
+traindataset 214,108,10,16
+test 45 23 12 7
+traindataset 209,111,15,13
+test 46 22 11 8
+traindataset 218,113,6,11
+test 46 23 11 7
+traindataset 214,112,10,12
+test 47 23 10 7
+traindataset 218,110,6,14
+test 47 24 10 6
+traindataset 211,112,13,12
+test 45 23 12 7
+traindataset 213,111,11,13
+test 46 23 11 7
+traindataset 212,109,12,15
+test 44 24 13 6
+traindataset 214,111,10,13
+test 44 24 13 6
+traindataset 215,114,9,10
+test 46 24 11 6
+traindataset 213,112,11,12
+test 47 23 10 7
+traindataset 215,112,9,12
+test 46 24 11 6
+traindataset 213,115,11,9
+test 47 23 10 7
+traindataset 216,113,8,11
+test 44 25 13 5
+traindataset 210,106,14,18
+test 47 23 10 7
+traindataset 215,108,9,16
+test 47 24 10 6
+Epoch 00106: reducing learning rate of group 0 to 3.2768e-05.
+traindataset 214,112,10,12
+test 47 24 10 6
+traindataset 216,112,8,12
+test 47 23 10 7
+traindataset 214,109,10,15
+test 47 23 10 7
+traindataset 212,114,12,10
+test 45 23 12 7
+traindataset 217,111,7,13
+test 47 24 10 6
+Train DataFrame has 348 rows.
+Test DataFrame has 87 rows.
+Start raining.
+traindataset 223,2,6,117
+test 52 0 0 35
+fold  3  AUC improved at epoch  1 ;	best_auc: 0.6807692307692308
+traindataset 229,0,0,119
+test 52 0 0 35
+fold  3  AUC improved at epoch  2 ;	best_auc: 0.682967032967033
+traindataset 229,0,0,119
+test 52 0 0 35
+fold  3  AUC improved at epoch  3 ;	best_auc: 0.6868131868131868
+traindataset 229,0,0,119
+test 52 0 0 35
+traindataset 229,0,0,119
+test 52 0 0 35
+fold  3  AUC improved at epoch  5 ;	best_auc: 0.689010989010989
+traindataset 229,0,0,119
+test 52 0 0 35
+fold  3  AUC improved at epoch  6 ;	best_auc: 0.7373626373626374
+traindataset 229,0,0,119
+test 52 0 0 35
+traindataset 229,4,0,115
+test 51 12 1 23
+fold  3  AUC improved at epoch  8 ;	best_auc: 0.7615384615384616
+traindataset 220,37,9,82
+test 48 21 4 14
+traindataset 183,87,46,32
+test 48 18 4 17
+traindataset 207,75,22,44
+test 48 18 4 17
+traindataset 202,76,27,43
+test 49 18 3 17
+traindataset 208,74,21,45
+test 48 18 4 17
+traindataset 202,77,27,42
+test 49 18 3 17
+fold  3  AUC improved at epoch  14 ;	best_auc: 0.7840659340659341
+traindataset 207,77,22,42
+test 48 18 4 17
+traindataset 209,75,20,44
+test 48 18 4 17
+fold  3  AUC improved at epoch  16 ;	best_auc: 0.7961538461538461
+traindataset 208,76,21,43
+test 48 20 4 15
+fold  3  AUC improved at epoch  17 ;	best_auc: 0.812087912087912
+traindataset 207,77,22,42
+test 49 17 3 18
+traindataset 208,79,21,40
+test 48 17 4 18
+traindataset 216,79,13,40
+test 48 19 4 16
+traindataset 217,74,12,45
+test 49 17 3 18
+fold  3  AUC improved at epoch  21 ;	best_auc: 0.8192307692307692
+traindataset 214,75,15,44
+test 48 17 4 18
+Epoch 00022: reducing learning rate of group 0 to 8.0000e-05.
+traindataset 214,76,15,43
+test 48 17 4 18
+fold  3  AUC improved at epoch  23 ;	best_auc: 0.8236263736263736
+traindataset 215,78,14,41
+test 48 19 4 16
+fold  3  AUC improved at epoch  24 ;	best_auc: 0.8285714285714286
+traindataset 219,74,10,45
+test 49 17 3 18
+traindataset 216,75,13,44
+test 48 17 4 18
+traindataset 220,79,9,40
+test 48 17 4 18
+traindataset 217,77,12,42
+test 48 17 4 18
+fold  3  AUC improved at epoch  28 ;	best_auc: 0.8335164835164836
+traindataset 215,79,14,40
+test 48 17 4 18
+traindataset 218,79,11,40
+test 48 17 4 18
+fold  3  AUC improved at epoch  30 ;	best_auc: 0.8384615384615385
+traindataset 218,77,11,42
+test 48 19 4 16
+traindataset 217,81,12,38
+test 48 17 4 18
+traindataset 217,82,12,37
+test 48 17 4 18
+traindataset 217,81,12,38
+test 48 19 4 16
+traindataset 216,81,13,38
+test 48 17 4 18
+traindataset 218,82,11,37
+test 48 19 4 16
+fold  3  AUC improved at epoch  36 ;	best_auc: 0.8456043956043956
+traindataset 218,84,11,35
+test 48 17 4 18
+fold  3  AUC improved at epoch  37 ;	best_auc: 0.8472527472527474
+traindataset 217,89,12,30
+test 48 19 4 16
+traindataset 222,84,7,35
+test 45 23 7 12
+fold  3  AUC improved at epoch  39 ;	best_auc: 0.8565934065934067
+traindataset 215,90,14,29
+test 46 24 6 11
+traindataset 218,92,11,27
+test 47 23 5 12
+traindataset 216,89,13,30
+test 48 19 4 16
+traindataset 218,93,11,26
+test 45 24 7 11
+Epoch 00043: reducing learning rate of group 0 to 6.4000e-05.
+traindataset 218,91,11,28
+test 45 24 7 11
+traindataset 220,94,9,25
+test 45 24 7 11
+fold  3  AUC improved at epoch  45 ;	best_auc: 0.8582417582417582
+traindataset 221,92,8,27
+test 45 24 7 11
+traindataset 220,93,9,26
+test 45 24 7 11
+traindataset 219,96,10,23
+test 45 25 7 10
+traindataset 215,96,14,23
+test 45 25 7 10
+fold  3  AUC improved at epoch  49 ;	best_auc: 0.8637362637362637
+traindataset 220,98,9,21
+test 46 24 6 11
+fold  3  AUC improved at epoch  50 ;	best_auc: 0.8730769230769231
+traindataset 220,96,9,23
+test 46 25 6 10
+traindataset 220,98,9,21
+test 45 25 7 10
+traindataset 220,99,9,20
+test 46 26 6 9
+traindataset 220,98,9,21
+test 46 25 6 10
+traindataset 221,97,8,22
+test 45 26 7 9
+traindataset 219,95,10,24
+test 46 26 6 9
+traindataset 217,101,12,18
+test 44 25 8 10
+traindataset 218,97,11,22
+test 46 25 6 10
+traindataset 220,103,9,16
+test 46 25 6 10
+traindataset 219,93,10,26
+test 45 26 7 9
+traindataset 220,102,9,17
+test 46 25 6 10
+traindataset 217,102,12,17
+test 46 23 6 12
+traindataset 217,97,12,22
+test 44 26 8 9
+traindataset 217,101,12,18
+test 46 25 6 10
+Epoch 00064: reducing learning rate of group 0 to 5.1200e-05.
+traindataset 220,102,9,17
+test 42 26 10 9
+traindataset 215,100,14,19
+test 46 25 6 10
+fold  3  AUC improved at epoch  66 ;	best_auc: 0.8747252747252747
+traindataset 222,106,7,13
+test 44 26 8 9
+traindataset 217,103,12,16
+test 46 26 6 9
+traindataset 220,101,9,18
+test 46 26 6 9
+traindataset 220,102,9,17
+test 45 25 7 10
+traindataset 221,101,8,18
+test 44 26 8 9
+traindataset 217,102,12,17
+test 45 25 7 10
+traindataset 218,101,11,18
+test 45 26 7 9
+traindataset 223,102,6,17
+test 45 26 7 9
+traindataset 217,101,12,18
+test 45 26 7 9
+traindataset 219,102,10,17
+test 45 26 7 9
+traindataset 221,104,8,15
+test 45 26 7 9
+traindataset 220,102,9,17
+test 44 26 8 9
+traindataset 220,105,9,14
+test 45 25 7 10
+traindataset 222,108,7,11
+test 45 25 7 10
+traindataset 221,103,8,16
+test 45 25 7 10
+traindataset 217,102,12,17
+test 45 25 7 10
+traindataset 223,104,6,15
+test 45 25 7 10
+traindataset 222,103,7,16
+test 45 25 7 10
+traindataset 221,102,8,17
+test 45 25 7 10
+Epoch 00085: reducing learning rate of group 0 to 4.0960e-05.
+traindataset 219,101,10,18
+test 45 25 7 10
+traindataset 223,106,6,13
+test 45 25 7 10
+traindataset 218,103,11,16
+test 45 25 7 10
+traindataset 219,104,10,15
+test 45 25 7 10
+traindataset 220,100,9,19
+test 44 26 8 9
+traindataset 216,106,13,13
+test 45 25 7 10
+traindataset 223,102,6,17
+test 44 27 8 8
+fold  3  AUC improved at epoch  92 ;	best_auc: 0.878021978021978
+traindataset 217,107,12,12
+test 45 26 7 9
+traindataset 220,104,9,15
+test 45 26 7 9
+traindataset 222,103,7,16
+test 44 26 8 9
+traindataset 220,101,9,18
+test 45 26 7 9
+traindataset 223,104,6,15
+test 43 26 9 9
+traindataset 219,109,10,10
+test 45 26 7 9
+traindataset 222,102,7,17
+test 45 26 7 9
+traindataset 219,105,10,14
+test 45 26 7 9
+traindataset 224,100,5,19
+test 45 26 7 9
+traindataset 222,105,7,14
+test 45 26 7 9
+traindataset 222,102,7,17
+test 45 26 7 9
+traindataset 218,106,11,13
+/HARD-DATA/WY/anaconda3/envs/dta/lib/python3.9/site-packages/dgl/heterograph.py:72: DGLWarning: Recommend creating graphs by `dgl.graph(data)` instead of `dgl.DGLGraph(data)`.
+  dgl_warning('Recommend creating graphs by `dgl.graph(data)`'
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/anaconda3/envs/dta/lib/python3.9/site-packages/dgl/heterograph.py:72: DGLWarning: Recommend creating graphs by `dgl.graph(data)` instead of `dgl.DGLGraph(data)`.
+  dgl_warning('Recommend creating graphs by `dgl.graph(data)`'
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+/HARD-DATA/WY/project/ADC2/main.py:35: RuntimeWarning: invalid value encountered in scalar divide
+  mcc = (tp * tn - fn * fp) / math.sqrt((tp + fn) * (tp + fp) * (tn + fn) * (tn + fp))
+/HARD-DATA/WY/project/ADC2/main.py:40: RuntimeWarning: invalid value encountered in scalar divide
+  NPV = tn / (fn + tn)
+test 45 26 7 9
+traindataset 222,105,7,14
+test 45 26 7 9
+traindataset 218,102,11,17
+test 45 26 7 9
+Epoch 00106: reducing learning rate of group 0 to 3.2768e-05.
+traindataset 221,106,8,13
+test 45 26 7 9
+traindataset 222,108,7,11
+test 45 26 7 9
+traindataset 222,104,7,15
+test 45 25 7 10
+traindataset 223,109,6,10
+test 45 26 7 9
+traindataset 221,102,8,17
+test 44 26 8 9
+traindataset 221,105,8,14
+test 44 26 8 9
+traindataset 221,104,8,15
+test 44 26 8 9
+traindataset 221,103,8,16
+test 44 26 8 9
+traindataset 221,107,8,12
+test 44 26 8 9
+traindataset 221,106,8,13
+test 43 26 9 9
+traindataset 216,108,13,11
+test 44 26 8 9
+traindataset 221,105,8,14
+test 44 26 8 9
+traindataset 220,105,9,14
+test 45 26 7 9
+traindataset 222,106,7,13
+test 44 26 8 9
+traindataset 220,105,9,14
+test 45 26 7 9
+traindataset 221,105,8,14
+test 44 26 8 9
+Train DataFrame has 348 rows.
+Test DataFrame has 87 rows.
+Start raining.
+traindataset 201,14,21,112
+test 59 0 0 28
+fold  4  AUC improved at epoch  1 ;	best_auc: 0.8099273607748184
+traindataset 222,0,0,126
+test 59 0 0 28
+fold  4  AUC improved at epoch  2 ;	best_auc: 0.8202179176755447
+traindataset 222,0,0,126
+test 59 0 0 28
+fold  4  AUC improved at epoch  3 ;	best_auc: 0.837772397094431
+traindataset 222,0,0,126
+test 59 0 0 28
+fold  4  AUC improved at epoch  4 ;	best_auc: 0.8583535108958839
+traindataset 222,0,0,126
+test 59 0 0 28
+fold  4  AUC improved at epoch  5 ;	best_auc: 0.866222760290557
+traindataset 222,0,0,126
+test 59 0 0 28
+traindataset 222,0,0,126
+test 59 0 0 28
+fold  4  AUC improved at epoch  7 ;	best_auc: 0.8734866828087167
+traindataset 222,1,0,125
+test 59 0 0 28
+fold  4  AUC improved at epoch  8 ;	best_auc: 0.8801452784503632
+traindataset 213,43,9,83
+test 49 23 10 5
+traindataset 199,56,23,70
+test 59 0 0 28
+traindataset 208,35,14,91
+test 59 4 0 24
+traindataset 208,58,14,68
+test 54 20 5 8
+fold  4  AUC improved at epoch  12 ;	best_auc: 0.8880145278450364
+traindataset 186,87,36,39
+test 48 23 11 5
+traindataset 188,85,34,41
+test 53 21 6 7
+traindataset 191,84,31,42
+test 54 21 5 7
+traindataset 196,80,26,46
+test 54 22 5 6
+traindataset 196,80,26,46
+test 54 21 5 7
+traindataset 205,84,17,42
+test 52 22 7 6
+traindataset 203,79,19,47
+test 50 22 9 6
+traindataset 203,80,19,46
+test 53 22 6 6
+traindataset 197,78,25,48
+test 58 18 1 10
+fold  4  AUC improved at epoch  21 ;	best_auc: 0.9001210653753027
+traindataset 194,84,28,42
+test 54 21 5 7
+Epoch 00022: reducing learning rate of group 0 to 8.0000e-05.
+traindataset 206,77,16,49
+test 56 19 3 9
+traindataset 203,81,19,45
+test 56 19 3 9
+traindataset 207,86,15,40
+test 54 19 5 9
+traindataset 201,87,21,39
+test 55 20 4 8
+traindataset 202,91,20,35
+test 57 19 2 9
+fold  4  AUC improved at epoch  27 ;	best_auc: 0.9031476997578691
+traindataset 205,90,17,36
+test 53 20 6 8
+traindataset 208,89,14,37
+test 54 20 5 8
+fold  4  AUC improved at epoch  29 ;	best_auc: 0.9073849878934626
+traindataset 203,91,19,35
+test 53 20 6 8
+traindataset 197,95,25,31
+test 58 20 1 8
+traindataset 200,93,22,33
+test 52 22 7 6
+fold  4  AUC improved at epoch  32 ;	best_auc: 0.9249394673123488
+traindataset 204,95,18,31
+test 53 22 6 6
+traindataset 202,98,20,28
+test 53 21 6 7
+traindataset 203,92,19,34
+test 53 21 6 7
+traindataset 201,100,21,26
+test 56 21 3 7
+traindataset 202,98,20,28
+test 54 21 5 7
+traindataset 205,102,17,24
+test 54 21 5 7
+traindataset 203,100,19,26
+test 55 21 4 7
+traindataset 204,102,18,24
+test 57 20 2 8
+traindataset 207,102,15,24
+test 50 22 9 6
+traindataset 201,104,21,22
+test 57 21 2 7
+traindataset 203,101,19,25
+test 56 19 3 9
+Epoch 00043: reducing learning rate of group 0 to 6.4000e-05.
+traindataset 207,105,15,21
+test 56 22 3 6
+traindataset 207,103,15,23
+test 50 22 9 6
+traindataset 204,108,18,18
+test 57 19 2 9
+traindataset 206,108,16,18
+test 57 20 2 8
+traindataset 209,103,13,23
+test 56 20 3 8
+traindataset 206,109,16,17
+test 55 21 4 7
+traindataset 209,107,13,19
+test 51 22 8 6
+traindataset 205,104,17,22
+test 57 20 2 8
+traindataset 208,104,14,22
+test 57 19 2 9
+traindataset 204,107,18,19
+test 53 21 6 7
+traindataset 209,102,13,24
+test 52 21 7 7
+traindataset 207,112,15,14
+test 56 18 3 10
+traindataset 208,110,14,16
+test 56 21 3 7
+traindataset 210,111,12,15
+test 55 21 4 7
+traindataset 211,111,11,15
+test 54 21 5 7
+traindataset 209,111,13,15
+test 55 21 4 7
+traindataset 208,111,14,15
+test 57 20 2 8
+traindataset 210,110,12,16
+test 52 21 7 7
+traindataset 205,110,17,16
+test 56 21 3 7
+Train DataFrame has 348 rows.
+Test DataFrame has 87 rows.
+Start raining.
+traindataset 167,28,55,98
+test 59 0 0 28
+fold  5  AUC improved at epoch  1 ;	best_auc: 0.6610169491525424
+traindataset 222,0,0,126
+test 59 0 0 28
+fold  5  AUC improved at epoch  2 ;	best_auc: 0.7276029055690073
+traindataset 222,0,0,126
+test 59 0 0 28
+fold  5  AUC improved at epoch  3 ;	best_auc: 0.7324455205811138
+traindataset 222,0,0,126
+test 59 0 0 28
+traindataset 222,0,0,126
+test 59 0 0 28
+fold  5  AUC improved at epoch  5 ;	best_auc: 0.7487893462469734
+traindataset 222,0,0,126
+test 59 0 0 28
+fold  5  AUC improved at epoch  6 ;	best_auc: 0.7590799031476998
+traindataset 222,0,0,126
+test 59 0 0 28
+fold  5  AUC improved at epoch  7 ;	best_auc: 0.7730024213075061
+traindataset 222,0,0,126
+test 59 0 0 28
+fold  5  AUC improved at epoch  8 ;	best_auc: 0.8044794188861984
+traindataset 221,2,1,124
+test 59 3 0 25
+fold  5  AUC improved at epoch  9 ;	best_auc: 0.8093220338983051
+traindataset 215,41,7,85
+test 51 19 8 9
+traindataset 201,74,21,52
+test 48 21 11 7
+fold  5  AUC improved at epoch  11 ;	best_auc: 0.8099273607748183
+traindataset 196,83,26,43
+test 49 21 10 7
+fold  5  AUC improved at epoch  12 ;	best_auc: 0.8141646489104116
+traindataset 183,87,39,39
+test 56 15 3 13
+fold  5  AUC improved at epoch  13 ;	best_auc: 0.8165859564164649
+traindataset 202,76,20,50
+test 53 18 6 10
+fold  5  AUC improved at epoch  14 ;	best_auc: 0.8383777239709443
+traindataset 199,76,23,50
+test 52 19 7 9
+traindataset 201,76,21,50
+test 53 17 6 11
+traindataset 201,78,21,48
+test 55 15 4 13
+fold  5  AUC improved at epoch  17 ;	best_auc: 0.8432203389830508
+traindataset 202,78,20,48
+test 52 18 7 10
+traindataset 205,80,17,46
+test 51 19 8 9
+traindataset 199,83,23,43
+test 52 18 7 10
+traindataset 196,80,26,46
+test 54 16 5 12
+traindataset 205,75,17,51
+test 51 19 8 9
+Epoch 00022: reducing learning rate of group 0 to 8.0000e-05.
+traindataset 204,81,18,45
+test 50 20 9 8
+traindataset 201,85,21,41
+test 56 15 3 13
+traindataset 201,82,21,44
+test 53 16 6 12
+traindataset 200,80,22,46
+test 52 17 7 11
+traindataset 202,78,20,48
+test 50 19 9 9
+traindataset 202,83,20,43
+test 50 19 9 9
+traindataset 199,86,23,40
+test 55 16 4 12
+fold  5  AUC improved at epoch  29 ;	best_auc: 0.8444309927360775
+traindataset 204,80,18,46
+test 54 17 5 11
+fold  5  AUC improved at epoch  30 ;	best_auc: 0.8450363196125907
+traindataset 202,84,20,42
+test 54 18 5 10
+fold  5  AUC improved at epoch  31 ;	best_auc: 0.8456416464891041
+traindataset 200,83,22,43
+test 52 18 7 10
+fold  5  AUC improved at epoch  32 ;	best_auc: 0.8559322033898304
+traindataset 205,78,17,48
+test 50 18 9 10
+fold  5  AUC improved at epoch  33 ;	best_auc: 0.8631961259079903
+traindataset 205,89,17,37
+test 57 16 2 12
+fold  5  AUC improved at epoch  34 ;	best_auc: 0.8771186440677966
+traindataset 203,84,19,42
+test 54 18 5 10
+fold  5  AUC improved at epoch  35 ;	best_auc: 0.8825665859564165
+traindataset 204,87,18,39
+test 50 18 9 10
+fold  5  AUC improved at epoch  36 ;	best_auc: 0.8861985472154964
+traindataset 208,88,14,38
+test 54 18 5 10
+traindataset 200,89,22,37
+test 55 17 4 11
+fold  5  AUC improved at epoch  38 ;	best_auc: 0.9013317191283293
+traindataset 202,88,20,38
+test 52 19 7 9
+fold  5  AUC improved at epoch  39 ;	best_auc: 0.9067796610169492
+traindataset 202,93,20,33
+test 53 19 6 9
+fold  5  AUC improved at epoch  40 ;	best_auc: 0.9079903147699758
+traindataset 202,101,20,25
+test 52 20 7 8
+fold  5  AUC improved at epoch  41 ;	best_auc: 0.914043583535109
+traindataset 204,104,18,22
+test 56 18 3 10
+fold  5  AUC improved at epoch  42 ;	best_auc: 0.9182808716707022
+traindataset 205,98,17,28
+test 53 21 6 7
+Epoch 00043: reducing learning rate of group 0 to 6.4000e-05.
+traindataset 207,99,15,27
+test 53 21 6 7
+traindataset 202,104,20,22
+test 54 21 5 7
+fold  5  AUC improved at epoch  45 ;	best_auc: 0.9213075060532687
+traindataset 202,100,20,26
+test 53 22 6 6
+traindataset 208,99,14,27
+test 53 20 6 8
+traindataset 198,106,24,20
+test 54 21 5 7
+traindataset 205,101,17,25
+test 52 22 7 6
+traindataset 205,100,17,26
+test 51 22 8 6
+traindataset 203,104,19,22
+test 54 22 5 6
+traindataset 205,102,17,24
+test 49 23 10 5
+traindataset 202,108,20,18
+test 53 22 6 6
+traindataset 207,110,15,16
+test 52 23 7 5
+traindataset 205,104,17,22
+test 52 23 7 5
+traindataset 206,108,16,18
+test 53 23 6 5
+traindataset 203,107,19,19
+test 53 20 6 8
+traindataset 207,110,15,16
+test 50 23 9 5
+traindataset 205,108,17,18
+test 50 23 9 5
+traindataset 204,111,18,15
+test 48 24 11 4
+traindataset 211,107,11,19
+test 53 23 6 5
+traindataset 204,107,18,19
+test 53 22 6 6
+traindataset 207,108,15,18
+test 50 23 9 5
+traindataset 203,108,19,18
+test 53 20 6 8
+Epoch 00064: reducing learning rate of group 0 to 5.1200e-05.
+traindataset 208,105,14,21
+test 48 24 11 4
+traindataset 206,112,16,14
+test 52 22 7 6
+traindataset 205,116,17,10
+test 50 23 9 5
+traindataset 202,110,20,16
+test 50 23 9 5
+traindataset 206,113,16,13
+test 50 24 9 4
+traindataset 208,108,14,18
+test 49 24 10 4
+traindataset 208,115,14,11
+test 50 23 9 5
+traindataset 208,107,14,19
+test 48 24 11 4
+traindataset 203,115,19,11
+test 49 24 10 4
+traindataset 208,117,14,9
+test 49 24 10 4
+traindataset 205,113,17,13
+test 49 24 10 4

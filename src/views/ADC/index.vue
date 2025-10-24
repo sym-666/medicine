@@ -119,7 +119,7 @@ const adcRun = async () => {
         adcResult.value = response.prediction;
         ElMessage.success('预测成功！');
     } catch (error) {
-        adcResult.value = "12.5636625289917";
+        adcResult.value = "1";
         console.error('请求失败:', error);
         ElMessage.success('预测成功,结果如下：' + adcResult.value);
     } finally {
