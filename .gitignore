@@ -20,3 +20,63 @@ node_modules
 *.njsproj
 *.sln
 *.sw?
+
+# AI模块相关
+# Python虚拟环境
+AI/**/venv/
+AI/**/env/
+AI/**/*_predict/
+AI/**/site-packages/
+AI/**/pyvenv.cfg
+AI/**/Scripts/
+AI/**/Lib/
+AI/**/Include/
+AI/**/share/
+AI/**/__pycache__/
+
+# 模型文件和大型数据文件
+*.pth
+*.models
+*.model
+*.h5
+*.pkl
+*.joblib
+*.dll
+*.lib
+*.so
+*.dylib
+
+# 数据文件
+*.csv
+*.tsv
+*.json
+*.parquet
+*.hdf5
+
+# Python编译文件
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# 分发/打包
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# macOS
+.DS_Store
+**/__MACOSX/
